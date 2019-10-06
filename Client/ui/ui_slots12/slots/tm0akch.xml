@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,646">
+  <displayList>
+    <image id="n2" name="n2" src="ha1y1m" xy="0,0" size="591,643" alpha="0.45"/>
+    <text id="n17" name="n17" xy="7,426" size="278,166" font="Adobe 黑体 Std R" fontSize="18" color="#ffffff" autoSize="none" text="1、當所有美女都進入READY狀態時會進入15回合的派對模式&#xA;2、遊戲主題面板中會出現全新的最大2000倍獎勵的新圖案&#xA;3、據說攢著4份獎勵一起領取能更好的體驗派對模式哦"/>
+    <loader id="n19" name="jietu3_jpg" xy="7,12" size="278,407"/>
+    <loader id="n20" name="jietu4_jpg" xy="301,12" size="278,407"/>
+    <text id="n23" name="n23" xy="301,426" size="278,166" font="Adobe 黑体 Std R" fontSize="18" color="#ffffff" autoSize="none" text="1、派對模式下，部分圖案會新增2個就可以中獎的獎勵規則&#xA;2、詳細資訊可以在中獎面板中查詢到"/>
+  </displayList>
+</component>

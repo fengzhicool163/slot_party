@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="3ly9g3la" jpegQuality="80" compressPNG="true">
+  <resources>
+    <folder id="r87o1" name="res" folder=""/>
+    <image id="r87o3" name="hud" folder="r87o1" qualityOption="source" file="r87o3.png" size="644,68"/>
+    <image id="r87o5" name="box2" folder="r87o1" qualityOption="source" file="r87o5.png" size="90,88"/>
+    <image id="r87o6" name="box" folder="r87o1" qualityOption="source" file="r87o6.png" size="191,35" scale="9grid" scale9grid="48,9,96,18"/>
+    <image id="r87o8" name="bar2" folder="r87o1" qualityOption="source" file="r87o8.png" size="640,34"/>
+    <image id="r87o9" name="gem" folder="r87o1" qualityOption="source" file="r87o9.png" size="46,35"/>
+    <component id="r87oa" name="spin_btn" folder="r87o1" file="r87oa.xml"/>
+    <component id="r87oc" name="Component1" folder="r87o1" file="r87oc.xml"/>
+    <component id="r87oj" name="Component2" folder="r87o1" file="r87oj.xml"/>
+    <component id="cvhbl" name="Component3" folder="r87o1" file="cvhbl.xml"/>
+    <component id="cvhbm" name="Component4" folder="r87o1" file="cvhbm.xml"/>
+    <image id="ha1y13" name="add" folder="r87o1" qualityOption="source" file="ha1y13.png" size="43,46"/>
+    <component id="ha1y14" name="Component5" folder="r87o1" file="ha1y14.xml"/>
+    <image id="ha1y15" name="rank_text" folder="r87o1" qualityOption="source" file="ha1y15.png" size="65,25"/>
+    <image id="ha1y16" name="paihangbang" folder="r87o1" qualityOption="source" file="ha1y16.png" size="82,73"/>
+    <component id="ha1y1f" name="popup_rank" folder="" file="ha1y1f.xml" exported="true"/>
+    <image id="ha1y1g" name="rank" folder="r87o1" qualityOption="source" file="ha1y1g.png" size="557,202" includedInAtlas="1"/>
+    <image id="ha1y1h" name="huang3" folder="r87o1" qualityOption="source" file="ha1y1h.png" size="67,44"/>
+    <image id="ha1y1i" name="huang2" folder="r87o1" qualityOption="source" file="ha1y1i.png" size="68,44"/>
+    <image id="ha1y1j" name="huang1" folder="r87o1" qualityOption="source" file="ha1y1j.png" size="76,51"/>
+    <image id="ha1y1k" name="close" folder="r87o1" qualityOption="source" file="ha1y1k.png" size="63,63"/>
+    <image id="ha1y1l" name="box7" folder="r87o1" qualityOption="source" file="ha1y1l.png" size="60,53" scale="9grid" scale9grid="15,14,30,28"/>
+    <image id="ha1y1m" name="box6" folder="r87o1" qualityOption="source" file="ha1y1m.png" size="53,37" scale="9grid" scale9grid="14,10,28,14"/>
+    <image id="ha1y1n" name="box5" folder="r87o1" qualityOption="source" file="ha1y1n.png" size="49,45" scale="9grid" scale9grid="13,12,26,24"/>
+    <image id="ha1y1o" name="bg_box" folder="r87o1" qualityOption="source" file="ha1y1o.png" size="88,700" scale="9grid" scale9grid="22,175,44,350"/>
+    <image id="ha1y1p" name="bar3" folder="r87o1" qualityOption="source" file="ha1y1p.png" size="536,80"/>
+    <component id="ha1y1q" name="closeButton" folder="r87o1" file="ha1y1q.xml"/>
+    <image id="ha1y1r" name="box4" folder="r87o1" qualityOption="source" file="ha1y1r.png" size="81,83"/>
+    <component id="ha1y1t" name="Component12" folder="r87o1" file="ha1y1t.xml"/>
+    <component id="ha1y1u" name="popup_mini" folder="" file="ha1y1u.xml" exported="true"/>
+    <image id="ha1y1v" name="tanchu" folder="r87o1" qualityOption="source" file="ha1y1v.png" size="63,320" scale="9grid" scale9grid="24,80,12,160"/>
+    <image id="ha1y1w" name="btn2" folder="r87o1" qualityOption="source" file="ha1y1w.png" size="238,85"/>
+    <component id="ha1y1x" name="Component13" folder="r87o1" file="ha1y1x.xml"/>
+    <image id="ha1y20" name="skip" folder="r87o1" qualityOption="source" file="ha1y20.png" size="43,28"/>
+    <component id="ha1y21" name="Component14" folder="r87o1" file="ha1y21.xml"/>
+    <component id="1077k23" name="Component16" folder="r87o1" file="1077k23.xml"/>
+    <component id="zvj1k27" name="Component10" folder="r87o1" file="zvj1k27.xml"/>
+    <image id="zvj1k28" name="头像框" folder="r87o1" qualityOption="source" file="zvj1k28.png" size="85,87" scale="9grid" scale9grid="22,22,44,44"/>
+    <image id="zvj1k29" name="阴影" folder="r87o1" qualityOption="source" file="zvj1k29.png" size="89,57"/>
+    <image id="8mjhk2a" name="头像框(2)" folder="r87o1" qualityOption="source" file="8mjhk2a.png" size="85,87"/>
+    <component id="p7lqk2b" name="popup2" folder="wmnuk50" file="p7lqk2b.xml"/>
+    <component id="q6lnk2m" name="popup_tongyong" folder="" file="q6lnk2m.xml" exported="true"/>
+    <component id="q6lnk2s" name="loading" folder="" file="q6lnk2s.xml" exported="true"/>
+    <image id="q6lnk2t" name="jintutiao2" folder="r87o1" qualityOption="source" file="q6lnk2t.png" size="212,44" scale="9grid" scale9grid="53,0,106,44" includedInAtlas="2"/>
+    <image id="q6lnk2u" name="jindutiao1" folder="r87o1" qualityOption="source" file="q6lnk2u.png" size="218,50" scale="9grid" scale9grid="59,13,118,23" includedInAtlas="2"/>
+    <component id="q6lnk2v" name="progress_bar" folder="r87o1" file="q6lnk2v.xml"/>
+    <image id="q6lnk2w" name="zairuzhong" folder="r87o1" qualityOption="source" file="q6lnk2w.png" size="122,36" includedInAtlas="2"/>
+    <jta id="q6lnk2x" name="MovieClip2" folder="r87o1" file="q6lnk2x.jta" size="120,100" exported="true" includedInAtlas="2"/>
+    <image id="q6lnk2y" name="flag3" folder="r87o1" qualityOption="source" file="q6lnk2y.png" size="139,32"/>
+    <image id="q6lnk2z" name="flag2" folder="r87o1" qualityOption="source" file="q6lnk2z.png" size="139,32"/>
+    <image id="q6lnk30" name="flag1" folder="r87o1" qualityOption="source" file="q6lnk30.png" size="153,36"/>
+    <image id="q6lnk31" name="box8" folder="r87o1" qualityOption="source" file="q6lnk31.png" size="51,33" scale="9grid" scale9grid="20,0,11,33"/>
+    <component id="q6lnk32" name="Component26" folder="r87o1" file="q6lnk32.xml"/>
+    <image id="q6lnk33" name="Campaign_wenhao2" folder="r87o1" qualityOption="source" file="q6lnk33.png" size="48,82"/>
+    <image id="n720k34" name="声音" folder="r87o1" qualityOption="source" file="n720k34.png" size="74,74"/>
+    <image id="n720k35" name="关闭" folder="r87o1" qualityOption="source" file="n720k35.png" size="65,67"/>
+    <component id="n720k36" name="Component27" folder="r87o1" file="n720k36.xml"/>
+    <component id="nix7k3r" name="slots" folder="" file="nix7k3r.xml" exported="true"/>
+    <folder id="nix7k3s" name="res2" folder=""/>
+    <image id="nix7k3u" name="音量" folder="nix7k3s" qualityOption="source" file="nix7k3u.png" size="55,58"/>
+    <image id="nix7k3v" name="shadow" folder="nix7k3s" qualityOption="source" file="nix7k3v.jpg" size="640,36" scale="9grid" scale9grid="141,0,45,29"/>
+    <image id="nix7k3w" name="HUD" folder="nix7k3s" qualityOption="source" file="nix7k3w.png" size="642,78"/>
+    <image id="nix7k3x" name="BOX" folder="nix7k3s" qualityOption="source" file="nix7k3x.png" size="69,69"/>
+    <image id="nix7k3y" name="bar2(2)" folder="nix7k3s" qualityOption="source" file="nix7k3y.png" size="640,210"/>
+    <image id="nix7k3z" name="bar" folder="nix7k3s" qualityOption="source" file="nix7k3z.png" size="19,37" scale="9grid" scale9grid="5,10,10,20"/>
+    <image id="nix7k45" name="BOX(2)" folder="nix7k3s" qualityOption="source" file="nix7k45.png" size="69,69"/>
+    <image id="nix7k49" name="add(2)" folder="nix7k3s" qualityOption="source" file="nix7k49.png" size="43,46"/>
+    <component id="nix7k4a" name="Component32" folder="r87o1" file="nix7k4a.xml"/>
+    <image id="oh4mk4b" name="bar3(2)" folder="nix7k3s" qualityOption="source" file="oh4mk4b.png" size="640,96"/>
+    <component id="oh4mk4g" name="Component33" folder="r87o1" file="oh4mk4g.xml"/>
+    <component id="oh4mk4h" name="Component34" folder="r87o1" file="oh4mk4h.xml"/>
+    <component id="oh4mk4i" name="Component35" folder="r87o1" file="oh4mk4i.xml"/>
+    <image id="oh4mk4j" name="222" folder="nix7k3s" qualityOption="source" file="oh4mk4j.jpg" size="640,8"/>
+    <image id="oh4mk4k" name="111" folder="nix7k3s" qualityOption="source" file="oh4mk4k.jpg" size="640,8"/>
+    <image id="vz99k4q" name="box1" folder="nix7k3s" qualityOption="source" file="vz99k4q.png" size="42,41" scale="9grid" scale9grid="13,13,16,11"/>
+    <image id="vz99k4r" name="bar4" folder="nix7k3s" qualityOption="source" file="vz99k4r.png" size="561,52"/>
+    <image id="ee48k4x" name="up拉霸" folder="nix7k3s" qualityOption="source" file="ee48k4x.png" size="289,107"/>
+    <image id="p5idk4y" name="guangtiao1" folder="nix7k3s" qualityOption="source" file="p5idk4y.png" size="303,82"/>
+    <image id="p5idk4z" name="guagntiao2" folder="nix7k3s" qualityOption="source" file="p5idk4z.png" size="478,31" scale="9grid" scale9grid="0,9,478,12"/>
+    <folder id="wmnuk50" name="res3" folder=""/>
+    <image id="wmnuk51" name="自動開始" folder="wmnuk50" qualityOption="source" file="wmnuk51.png" size="157,155"/>
+    <image id="wmnuk52" name="排行榜" folder="wmnuk50" qualityOption="source" file="wmnuk52.png" size="77,80"/>
+    <image id="wmnuk53" name="開始一次" folder="wmnuk50" qualityOption="source" file="wmnuk53.png" size="157,155"/>
+    <image id="wmnuk54" name="規則" folder="wmnuk50" qualityOption="source" file="wmnuk54.png" size="77,80"/>
+    <image id="wmnuk55" name="up" folder="wmnuk50" qualityOption="source" file="wmnuk55.png" size="376,147"/>
+    <image id="wmnuk56" name="tiao" folder="wmnuk50" qualityOption="source" file="wmnuk56.png" size="4,396"/>
+    <image id="wmnuk57" name="btn50" folder="wmnuk50" qualityOption="source" file="wmnuk57.png" size="137,69"/>
+    <image id="wmnuk58" name="btn30" folder="wmnuk50" qualityOption="source" file="wmnuk58.png" size="137,69"/>
+    <image id="wmnuk59" name="btn10" folder="wmnuk50" qualityOption="source" file="wmnuk59.png" size="137,69"/>
+    <image id="wmnuk5a" name="btn5" folder="wmnuk50" qualityOption="source" file="wmnuk5a.png" size="137,69"/>
+    <image id="wmnuk5b" name="btn3" folder="wmnuk50" qualityOption="source" file="wmnuk5b.png" size="137,69"/>
+    <image id="wmnuk5c" name="btn1" folder="wmnuk50" qualityOption="source" file="wmnuk5c.png" size="137,69"/>
+    <image id="wmnuk5d" name="btn_shadow" folder="wmnuk50" qualityOption="source" file="wmnuk5d.png" size="42,38" scale="9grid" scale9grid="19,15,4,4"/>
+    <image id="wmnuk5e" name="box2(2)" folder="wmnuk50" qualityOption="source" file="wmnuk5e.png" size="104,72"/>
+    <image id="wmnuk5f" name="box_bar" folder="wmnuk50" qualityOption="source" file="wmnuk5f.png" size="99,30"/>
+    <image id="wmnuk5g" name="fangzi" folder="wmnuk50" qualityOption="source" file="wmnuk5g.jpg" size="640,479" scale9grid="8,8,16,16"/>
+    <image id="wmnuk5h" name="bar2(3)" folder="wmnuk50" qualityOption="source" file="wmnuk5h.jpg" size="640,8" includedInAtlas="1"/>
+    <image id="wmnuk5i" name="bar1" folder="wmnuk50" qualityOption="source" file="wmnuk5i.jpg" size="640,8"/>
+    <component id="wmnuk5k" name="Component15" folder="wmnuk50" file="wmnuk5k.xml"/>
+    <image id="wmnuk5l" name="未标题-1" folder="wmnuk50" qualityOption="source" file="wmnuk5l.jpg" size="725,405"/>
+    <component id="wmnuk5m" name="Component36" folder="wmnuk50" file="wmnuk5m.xml"/>
+    <component id="wmnuk5n" name="Component37" folder="wmnuk50" file="wmnuk5n.xml"/>
+    <component id="wmnuk5o" name="btn_1" folder="wmnuk50" file="wmnuk5o.xml"/>
+    <component id="wmnuk5p" name="Component38" folder="wmnuk50" file="wmnuk5p.xml"/>
+    <component id="wmnuk5q" name="Component39" folder="wmnuk50" file="wmnuk5q.xml"/>
+    <component id="wmnuk5r" name="Component40" folder="wmnuk50" file="wmnuk5r.xml"/>
+    <image id="r77kk5s" name="yaoshi" folder="wmnuk50" qualityOption="source" file="r77kk5s.png" size="56,59"/>
+    <image id="r77kk5t" name="xiangzi" folder="wmnuk50" qualityOption="source" file="r77kk5t.png" size="77,80"/>
+    <image id="r77kk5u" name="yanhua" folder="wmnuk50" qualityOption="source" file="r77kk5u.png" size="77,80"/>
+    <component id="r77kk5v" name="Component41" folder="wmnuk50" file="r77kk5v.xml"/>
+    <image id="ohmyk5x" name="yuan2" folder="wmnuk50" qualityOption="source" file="ohmyk5x.png" size="12,12"/>
+    <image id="ohmyk5y" name="yuan1" folder="wmnuk50" qualityOption="source" file="ohmyk5y.png" size="18,18"/>
+    <image id="ohmyk5z" name="popup_box3" folder="wmnuk50" qualityOption="source" file="ohmyk5z.jpg" size="16,16" scale="9grid" scale9grid="4,4,8,8"/>
+    <image id="ohmyk60" name="popup_box2" folder="wmnuk50" qualityOption="source" file="ohmyk60.jpg" size="16,16" scale="9grid" scale9grid="4,4,8,8"/>
+    <image id="ohmyk61" name="popup_box" folder="wmnuk50" qualityOption="source" file="ohmyk61.png" size="14,14" scale="9grid" scale9grid="3,4,7,6"/>
+    <image id="ohmyk62" name="popup_bg" folder="wmnuk50" qualityOption="source" file="ohmyk62.png" size="41,41" scale="9grid" scale9grid="16,14,9,12"/>
+    <image id="ohmyk63" name="3" folder="wmnuk50" qualityOption="source" file="ohmyk63.jpg" size="290,209"/>
+    <image id="ohmyk64" name="2" folder="wmnuk50" qualityOption="source" file="ohmyk64.jpg" size="290,209"/>
+    <image id="ohmyk65" name="1" folder="wmnuk50" qualityOption="source" file="ohmyk65.jpg" size="290,209"/>
+    <component id="ohmyk66" name="popup_rule" folder="" file="ohmyk66.xml" exported="true"/>
+    <component id="ohmyk67" name="Component42" folder="wmnuk50" file="ohmyk67.xml"/>
+    <component id="ohmyk68" name="Component43" folder="wmnuk50" file="ohmyk68.xml"/>
+    <component id="ohmyk69" name="Component44" folder="wmnuk50" file="ohmyk69.xml"/>
+    <image id="ii83k6b" name="box2(3)" folder="wmnuk50" qualityOption="source" file="ii83k6b.png" size="42,33" scale="9grid" scale9grid="14,12,13,7"/>
+    <image id="9qfok6c" name="燈籠" folder="wmnuk50" qualityOption="source" file="9qfok6c.png" size="640,295" includedInAtlas="1"/>
+    <image id="9qfok6e" name="box_zg" folder="wmnuk50" qualityOption="source" file="9qfok6e.jpg" size="20,20" scale="9grid" scale9grid="6,6,12,12"/>
+    <image id="9qfok6f" name="hongxundali" folder="wmnuk50" qualityOption="source" file="9qfok6f.png" size="506,140"/>
+    <image id="9qfok6g" name="flag" folder="wmnuk50" qualityOption="source" file="9qfok6g.png" size="546,84"/>
+    <component id="pd9ik6h" name="Component50" folder="wmnuk50" file="pd9ik6h.xml"/>
+    <image id="pd9ik6i" name="tap1" folder="wmnuk50" qualityOption="source" file="pd9ik6i.png" size="53,53" scale="9grid" scale9grid="14,14,28,28"/>
+    <image id="pd9ik6j" name="tap2" folder="wmnuk50" qualityOption="source" file="pd9ik6j.png" size="52,53" scale="9grid" scale9grid="13,14,26,28"/>
+    <component id="pd9ik6k" name="Component51" folder="wmnuk50" file="pd9ik6k.xml"/>
+    <image id="pd9ik6l" name="flag(2)" folder="wmnuk50" qualityOption="source" file="pd9ik6l.png" size="546,84"/>
+    <image id="zj97k6m" name="绳子" folder="wmnuk50" qualityOption="source" file="zj97k6m.png" size="559,176"/>
+    <image id="azd7k6n" name="unit007" folder="t2zzk87" qualityOption="source" file="azd7k6n.png" size="120,120" exported="true"/>
+    <image id="azd7k6o" name="unit006" folder="t2zzk87" qualityOption="source" file="azd7k6o.png" size="120,120" exported="true"/>
+    <image id="azd7k6p" name="unit005" folder="t2zzk87" qualityOption="source" file="azd7k6p.png" size="120,120" exported="true"/>
+    <image id="azd7k6q" name="unit004" folder="t2zzk87" qualityOption="source" file="azd7k6q.png" size="120,120" exported="true"/>
+    <image id="azd7k6r" name="unit003" folder="t2zzk87" qualityOption="source" file="azd7k6r.png" size="120,120" exported="true"/>
+    <image id="azd7k6s" name="unit002" folder="t2zzk87" qualityOption="source" file="azd7k6s.png" size="120,120" exported="true"/>
+    <image id="azd7k6t" name="unit001" folder="t2zzk87" qualityOption="source" file="azd7k6t.png" size="120,120" exported="true"/>
+    <image id="azd7k6u" name="yanhua(2)" folder="wmnuk50" qualityOption="source" file="azd7k6u.png" size="60,50"/>
+    <component id="azd7k6v" name="Component45" folder="wmnuk50" file="azd7k6v.xml"/>
+    <component id="azd7k6w" name="Component46" folder="wmnuk50" file="azd7k6w.xml"/>
+    <component id="azd7k6x" name="Component47" folder="wmnuk50" file="azd7k6x.xml"/>
+    <component id="azd7k6y" name="Component48" folder="wmnuk50" file="azd7k6y.xml"/>
+    <component id="azd7k6z" name="Component49" folder="wmnuk50" file="azd7k6z.xml"/>
+    <component id="gmvxk70" name="Component52" folder="wmnuk50" file="gmvxk70.xml"/>
+    <component id="gmvxk71" name="Component53" folder="wmnuk50" file="gmvxk71.xml"/>
+    <image id="ynemk72" name="jiantou" folder="wmnuk50" qualityOption="source" file="ynemk72.png" size="57,60"/>
+    <component id="ynemk73" name="Component54" folder="wmnuk50" file="ynemk73.xml"/>
+    <component id="ynemk74" name="Component55" folder="wmnuk50" file="ynemk74.xml"/>
+    <image id="j23ok75" name="bg_bei" folder="wmnuk50" qualityOption="source" file="j23ok75.jpg" size="640,271"/>
+    <image id="j23ok76" name="shu" folder="wmnuk50" qualityOption="source" file="j23ok76.jpg" size="638,83"/>
+    <component id="f0uhk77" name="Component56" folder="wmnuk50" file="f0uhk77.xml"/>
+    <image id="f0uhk78" name="xiaofeifanli" folder="wmnuk50" qualityOption="source" file="f0uhk78.png" size="77,80"/>
+    <component id="f0uhk79" name="popup_fanli" folder="" file="f0uhk79.xml" exported="true"/>
+    <image id="f0uhk7a" name="box_fanli1" folder="wmnuk50" qualityOption="source" file="f0uhk7a.jpg" size="20,20" scale="9grid" scale9grid="5,5,10,10"/>
+    <image id="f0uhk7b" name="box_fanli2" folder="wmnuk50" qualityOption="source" file="f0uhk7b.jpg" size="20,20" scale="9grid" scale9grid="5,5,10,10"/>
+    <folder id="f0uhk7e" name="shuzi" folder="wmnuk50"/>
+    <image id="f0uhk7f" name="9" folder="f0uhk7e" qualityOption="source" file="f0uhk7f.png" size="120,150"/>
+    <image id="f0uhk7g" name="8" folder="f0uhk7e" qualityOption="source" file="f0uhk7g.png" size="120,150"/>
+    <image id="f0uhk7h" name="7" folder="f0uhk7e" qualityOption="source" file="f0uhk7h.png" size="120,150"/>
+    <image id="f0uhk7i" name="6" folder="f0uhk7e" qualityOption="source" file="f0uhk7i.png" size="120,150"/>
+    <image id="f0uhk7j" name="5" folder="f0uhk7e" qualityOption="source" file="f0uhk7j.png" size="120,150"/>
+    <image id="f0uhk7k" name="4" folder="f0uhk7e" qualityOption="source" file="f0uhk7k.png" size="120,150"/>
+    <image id="f0uhk7l" name="3(2)" folder="f0uhk7e" qualityOption="source" file="f0uhk7l.png" size="120,150"/>
+    <image id="f0uhk7m" name="2(2)" folder="f0uhk7e" qualityOption="source" file="f0uhk7m.png" size="116,147"/>
+    <image id="f0uhk7n" name="1(2)" folder="f0uhk7e" qualityOption="source" file="f0uhk7n.png" size="120,150"/>
+    <image id="f0uhk7o" name="0" folder="f0uhk7e" qualityOption="source" file="f0uhk7o.png" size="120,150"/>
+    <image id="f0uhk7p" name="," folder="f0uhk7e" qualityOption="source" file="f0uhk7p.png" size="83,150"/>
+    <font id="f0uhk7q" name="Font1" folder="" file="f0uhk7q.fnt" exported="true"/>
+    <component id="uupkk7r" name="popup" folder="" file="uupkk7r.xml" exported="true"/>
+    <image id="uupkk7t" name="jiangdan_box" folder="wmnuk50" qualityOption="source" file="uupkk7t.png" size="22,22" scale="9grid" scale9grid="6,6,12,12"/>
+    <image id="uupkk7u" name="jiangdan_star" folder="wmnuk50" qualityOption="source" file="uupkk7u.png" size="485,432"/>
+    <image id="uupkk7v" name="jiangdan_box2" folder="wmnuk50" qualityOption="source" file="uupkk7v.png" size="40,38" scale="9grid" scale9grid="15,14,11,10"/>
+    <component id="hicck7w" name="Component60" folder="wmnuk50" file="hicck7w.xml"/>
+    <image id="hicck7x" name="灰色" folder="wmnuk50" qualityOption="source" file="hicck7x.png" size="238,85"/>
+    <component id="pnntk7y" name="popup_jiangdan" folder="" file="pnntk7y.xml" exported="true"/>
+    <component id="pnntk7z" name="Component57" folder="wmnuk50" file="pnntk7z.xml"/>
+    <component id="h0m3k80" name="return" folder="wmnuk50" file="h0m3k80.xml"/>
+    <image id="h0m3k81" name="fanhui" folder="wmnuk50" qualityOption="source" file="h0m3k81.png" size="56,59"/>
+    <component id="h0m3k82" name="Component110" folder="wmnuk50" file="h0m3k82.xml"/>
+    <image id="h0m3k83" name="renwu" folder="wmnuk50" qualityOption="source" file="h0m3k83.png" size="64,70" scale="9grid" scale9grid="60,0,4,70"/>
+    <image id="h0m3k84" name="hongdian" folder="wmnuk50" qualityOption="source" file="h0m3k84.png" size="21,21"/>
+    <image id="h2z5k85" name="renwu(2)" folder="wmnuk50" qualityOption="source" file="h2z5k85.png" size="49,70"/>
+    <component id="h2z5k86" name="Component58" folder="wmnuk50" file="h2z5k86.xml"/>
+    <folder id="t2zzk87" name="units" folder=""/>
+    <image id="t2zzk88" name="unit007_blur" folder="t2zzk87" qualityOption="source" file="t2zzk88.png" size="120,120" exported="true"/>
+    <image id="t2zzk89" name="unit006_blur" folder="t2zzk87" qualityOption="source" file="t2zzk89.png" size="120,120" exported="true"/>
+    <image id="t2zzk8a" name="unit005_blur" folder="t2zzk87" qualityOption="source" file="t2zzk8a.png" size="120,120" exported="true"/>
+    <image id="t2zzk8b" name="unit004_blur" folder="t2zzk87" qualityOption="source" file="t2zzk8b.png" size="120,120" exported="true"/>
+    <image id="t2zzk8c" name="unit003_blur" folder="t2zzk87" qualityOption="source" file="t2zzk8c.png" size="120,120" exported="true"/>
+    <image id="t2zzk8d" name="unit002_blur" folder="t2zzk87" qualityOption="source" file="t2zzk8d.png" size="120,120" exported="true"/>
+    <image id="t2zzk8e" name="unit001_blur" folder="t2zzk87" qualityOption="source" file="t2zzk8e.png" size="120,120" exported="true"/>
+    <component id="spdsk8f" name="Component59" folder="nix7k3s" file="spdsk8f.xml"/>
+    <folder id="gkspk8g" name="外部占位" folder=""/>
+    <component id="gkspk8h" name="hud_hud" folder="gkspk8g" file="gkspk8h.xml"/>
+    <image id="axfsk8j" name="hua2" folder="wmnuk50" qualityOption="source" file="axfsk8j.png" size="43,81"/>
+    <image id="axfsk8k" name="hua1" folder="wmnuk50" qualityOption="source" file="axfsk8k.png" size="122,171"/>
+    <component id="axfsk8l" name="100ubtn" folder="nix7k3s" file="axfsk8l.xml"/>
+    <image id="axfsk8m" name="btn302" folder="nix7k3s" qualityOption="source" file="axfsk8m.png" size="137,69"/>
+    <image id="axfsk8n" name="btn_shadow2" folder="nix7k3s" qualityOption="source" file="axfsk8n.png" size="42,38" scale="9grid" scale9grid="19,15,4,4"/>
+    <component id="axfsk8o" name="10ubtn" folder="nix7k3s" file="axfsk8o.xml"/>
+    <image id="axfsk8p" name="btn102" folder="nix7k3s" qualityOption="source" file="axfsk8p.png" size="137,69"/>
+    <image id="axfsk8q" name="btn_shadow3" folder="nix7k3s" qualityOption="source" file="axfsk8q.png" size="42,38" scale="9grid" scale9grid="19,15,4,4"/>
+    <component id="axfsk8r" name="500ubtn" folder="nix7k3s" file="axfsk8r.xml"/>
+    <image id="axfsk8s" name="btn502" folder="nix7k3s" qualityOption="source" file="axfsk8s.png" size="137,69"/>
+    <image id="axfsk8t" name="btn_shadow4" folder="nix7k3s" qualityOption="source" file="axfsk8t.png" size="42,38" scale="9grid" scale9grid="19,15,4,4"/>
+    <image id="axfsk8u" name="huaping" folder="wmnuk50" qualityOption="source" file="axfsk8u.png" size="213,257"/>
+    <image id="axfsk8v" name="caidan" folder="wmnuk50" qualityOption="source" file="axfsk8v.png" size="167,157"/>
+    <image id="axfsk8w" name="zhuobuzuo" folder="wmnuk50" qualityOption="source" file="axfsk8w.png" size="183,100"/>
+    <image id="axfsk8x" name="zhuobuyou" folder="wmnuk50" qualityOption="source" file="axfsk8x.png" size="296,100"/>
+    <image id="axfsk8y" name="panzi" folder="wmnuk50" qualityOption="source" file="axfsk8y.png" size="159,81"/>
+    <image id="axfsk8z" name="loli" folder="wmnuk50" qualityOption="source" file="axfsk8z.png" size="213,264"/>
+    <image id="hcxck90" name="mianban2" folder="wmnuk50" qualityOption="source" file="hcxck90.png" size="229,92"/>
+    <image id="hcxck91" name="mianban1" folder="wmnuk50" qualityOption="source" file="hcxck91.png" size="223,86"/>
+    <image id="hcxck92" name="mianban" folder="wmnuk50" qualityOption="source" file="hcxck92.png" size="228,135"/>
+    <image id="hcxck93" name="bar2(4)" folder="wmnuk50" qualityOption="source" file="hcxck93.png" size="34,14" scale="9grid" scale9grid="15,0,3,14"/>
+    <image id="hcxck94" name="bar(2)" folder="wmnuk50" qualityOption="source" file="hcxck94.png" size="28,10" scale="9grid" scale9grid="14,0,3,10"/>
+    <component id="hcxck95" name="Component6" folder="wmnuk50" file="hcxck95.xml"/>
+    <component id="hcxck96" name="Component7" folder="wmnuk50" file="hcxck96.xml"/>
+    <image id="v4okk97" name="cha" folder="f0uhk7e" qualityOption="source" file="v4okk97.png" size="112,122"/>
+    <image id="b42dk98" name="xianshu4" folder="wmnuk50" qualityOption="source" file="b42dk98.jpg" size="290,209"/>
+    <component id="b42dk99" name="Component63" folder="wmnuk50" file="b42dk99.xml"/>
+    <image id="b42dk9a" name="kuang2" folder="wmnuk50" qualityOption="source" file="b42dk9a.png" size="641,432"/>
+    <image id="dvz8k9b" name="bary" folder="wmnuk50" qualityOption="source" file="dvz8k9b.png" size="28,10" scale="9grid" scale9grid="11,0,3,10"/>
+    <image id="dvz8k9c" name="barred" folder="wmnuk50" qualityOption="source" file="dvz8k9c.png" size="28,10" scale="9grid" scale9grid="10,0,5,10"/>
+    <component id="dvz8k9d" name="Component75" folder="wmnuk50" file="dvz8k9d.xml"/>
+    <component id="dvz8k9e" name="Component76" folder="wmnuk50" file="dvz8k9e.xml"/>
+    <component id="dvz8k9f" name="Component77" folder="wmnuk50" file="dvz8k9f.xml"/>
+    <image id="l4nxk9g" name="san" folder="wmnuk50" qualityOption="source" file="l4nxk9g.png" size="244,243"/>
+    <image id="l4nxk9h" name="yizi" folder="wmnuk50" qualityOption="source" file="l4nxk9h.png" size="163,119"/>
+    <image id="sql5k9i" name="unit011_blur" folder="t2zzk87" qualityOption="source" file="sql5k9i.png" size="120,120" exported="true"/>
+    <image id="sql5k9j" name="unit011" folder="t2zzk87" qualityOption="source" file="sql5k9j.png" size="120,120" exported="true"/>
+    <image id="sql5k9k" name="unit010_blur" folder="t2zzk87" qualityOption="source" file="sql5k9k.png" size="120,120" exported="true"/>
+    <image id="sql5k9l" name="unit010" folder="t2zzk87" qualityOption="source" file="sql5k9l.png" size="120,120" exported="true"/>
+    <image id="sql5k9m" name="unit009_blur" folder="t2zzk87" qualityOption="source" file="sql5k9m.png" size="120,120" exported="true"/>
+    <image id="sql5k9n" name="unit009" folder="t2zzk87" qualityOption="source" file="sql5k9n.png" size="120,120" exported="true"/>
+    <image id="sql5k9o" name="unit008_blur" folder="t2zzk87" qualityOption="source" file="sql5k9o.png" size="120,120" exported="true"/>
+    <image id="sql5k9p" name="unit008" folder="t2zzk87" qualityOption="source" file="sql5k9p.png" size="120,120" exported="true"/>
+    <image id="sql5k9q" name="yiziwan" folder="wmnuk50" qualityOption="source" file="sql5k9q.png" size="163,120"/>
+    <image id="sql5k9r" name="yezizuowan" folder="wmnuk50" qualityOption="source" file="sql5k9r.png" size="145,115"/>
+    <image id="sql5k9s" name="yeziyouwan" folder="wmnuk50" qualityOption="source" file="sql5k9s.png" size="286,171"/>
+    <image id="sql5k9t" name="wan" folder="wmnuk50" qualityOption="source" file="sql5k9t.jpg" size="640,60"/>
+    <image id="sql5k9u" name="sandiwan" folder="wmnuk50" qualityOption="source" file="sql5k9u.png" size="105,188"/>
+    <image id="sql5k9v" name="sandingb" folder="wmnuk50" qualityOption="source" file="sql5k9v.png" size="244,134"/>
+    <image id="sql5k9w" name="sanding" folder="wmnuk50" qualityOption="source" file="sql5k9w.png" size="244,134"/>
+    <image id="sql5k9x" name="sandib" folder="wmnuk50" qualityOption="source" file="sql5k9x.png" size="105,188"/>
+    <image id="j3bpk9y" name="unit012_blur" folder="t2zzk87" qualityOption="source" file="j3bpk9y.png" size="120,120" exported="true"/>
+    <image id="j3bpk9z" name="unit012" folder="t2zzk87" qualityOption="source" file="j3bpk9z.png" size="120,120" exported="true"/>
+    <image id="j3bpka0" name="nv4" folder="wmnuk50" qualityOption="source" file="j3bpka0.png" size="67,76"/>
+    <image id="j3bpka1" name="nv3" folder="wmnuk50" qualityOption="source" file="j3bpka1.png" size="67,76"/>
+    <image id="j3bpka2" name="nv2" folder="wmnuk50" qualityOption="source" file="j3bpka2.png" size="67,76"/>
+    <image id="j3bpka3" name="nv1" folder="wmnuk50" qualityOption="source" file="j3bpka3.png" size="67,76"/>
+    <component id="j3bpka4" name="Component8" folder="wmnuk50" file="j3bpka4.xml"/>
+    <component id="j3bpka5" name="Component9" folder="wmnuk50" file="j3bpka5.xml"/>
+    <component id="j3bpka6" name="Component11" folder="wmnuk50" file="j3bpka6.xml"/>
+    <component id="j3bpka7" name="Component17" folder="wmnuk50" file="j3bpka7.xml"/>
+    <image id="j3bpka8" name="n9" folder="f0uhk7e" qualityOption="source" file="j3bpka8.png" size="17,20"/>
+    <image id="j3bpka9" name="n8" folder="f0uhk7e" qualityOption="source" file="j3bpka9.png" size="17,20"/>
+    <image id="j3bpkaa" name="n7" folder="f0uhk7e" qualityOption="source" file="j3bpkaa.png" size="17,20"/>
+    <image id="j3bpkab" name="n6" folder="f0uhk7e" qualityOption="source" file="j3bpkab.png" size="17,20"/>
+    <image id="j3bpkac" name="n5" folder="f0uhk7e" qualityOption="source" file="j3bpkac.png" size="17,20"/>
+    <image id="j3bpkad" name="n4" folder="f0uhk7e" qualityOption="source" file="j3bpkad.png" size="17,20"/>
+    <image id="j3bpkae" name="n3" folder="f0uhk7e" qualityOption="source" file="j3bpkae.png" size="17,20"/>
+    <image id="j3bpkaf" name="n2" folder="f0uhk7e" qualityOption="source" file="j3bpkaf.png" size="17,20"/>
+    <image id="j3bpkag" name="n1" folder="f0uhk7e" qualityOption="source" file="j3bpkag.png" size="17,20"/>
+    <image id="j3bpkah" name="n0" folder="f0uhk7e" qualityOption="source" file="j3bpkah.png" size="17,20"/>
+    <image id="j3bpkai" name="n%" folder="f0uhk7e" qualityOption="source" file="j3bpkai.png" size="17,20"/>
+    <font id="j3bpkaj" name="Font2" folder="" file="j3bpkaj.fnt" exported="true"/>
+    <image id="j3bpkak" name="ok" folder="wmnuk50" qualityOption="source" file="j3bpkak.png" size="110,68"/>
+    <component id="j3bpkal" name="Component18" folder="wmnuk50" file="j3bpkal.xml"/>
+    <image id="j3bpkam" name="paidui" folder="wmnuk50" qualityOption="source" file="j3bpkam.png" size="177,65"/>
+    <image id="j3bpkan" name="huihe" folder="wmnuk50" qualityOption="source" file="j3bpkan.png" size="187,65"/>
+    <image id="ca07kao" name="djzuowan" folder="wmnuk50" qualityOption="source" file="ca07kao.png" size="338,139"/>
+    <image id="ca07kap" name="djzuo" folder="wmnuk50" qualityOption="source" file="ca07kap.png" size="338,139"/>
+    <image id="ca07kar" name="dj" folder="wmnuk50" qualityOption="source" file="ca07kar.png" size="182,233"/>
+    <image id="ca07kas" name="jesscia" folder="wmnuk50" qualityOption="source" file="ca07kas.png" size="166,75"/>
+    <image id="ca07kaw" name="shuiqiangnv" folder="wmnuk50" qualityOption="source" file="ca07kaw.png" size="161,174"/>
+    <image id="ca07kax" name="joy" folder="wmnuk50" qualityOption="source" file="ca07kax.png" size="144,75"/>
+    <image id="v3bokay" name="tanyinv" folder="wmnuk50" qualityOption="source" file="v3bokay.png" size="142,158"/>
+    <image id="v3bokaz" name="mic" folder="wmnuk50" qualityOption="source" file="v3bokaz.png" size="186,66"/>
+    <image id="v3bokb0" name="shuiqiunv" folder="wmnuk50" qualityOption="source" file="v3bokb0.png" size="123,162"/>
+    <image id="v3bokb1" name="ruby" folder="wmnuk50" qualityOption="source" file="v3bokb1.png" size="121,74"/>
+    <image id="v3bokb2" name="jinxingzhong" folder="wmnuk50" qualityOption="source" file="v3bokb2.png" size="184,71"/>
+    <image id="v3bokb3" name="jinxingzhong2" folder="wmnuk50" qualityOption="source" file="v3bokb3.png" size="178,65"/>
+    <folder id="k6j2kb4" name="2" folder="wmnuk50"/>
+    <image id="k6j2kb5" name="h9" folder="k6j2kb4" qualityOption="source" file="k6j2kb5.png" size="23,30"/>
+    <image id="k6j2kb6" name="h8" folder="k6j2kb4" qualityOption="source" file="k6j2kb6.png" size="23,30"/>
+    <image id="k6j2kb7" name="h7" folder="k6j2kb4" qualityOption="source" file="k6j2kb7.png" size="23,30"/>
+    <image id="k6j2kb8" name="h6" folder="k6j2kb4" qualityOption="source" file="k6j2kb8.png" size="23,30"/>
+    <image id="k6j2kb9" name="h5" folder="k6j2kb4" qualityOption="source" file="k6j2kb9.png" size="23,30"/>
+    <image id="k6j2kba" name="h4" folder="k6j2kb4" qualityOption="source" file="k6j2kba.png" size="23,30"/>
+    <image id="k6j2kbb" name="h3" folder="k6j2kb4" qualityOption="source" file="k6j2kbb.png" size="23,30"/>
+    <image id="k6j2kbc" name="h1" folder="k6j2kb4" qualityOption="source" file="k6j2kbc.png" size="23,30"/>
+    <image id="k6j2kbd" name="h0" folder="k6j2kb4" qualityOption="source" file="k6j2kbd.png" size="23,30"/>
+    <font id="k6j2kbp" name="Font3" folder="" file="k6j2kbp.fnt" exported="true"/>
+    <image id="k6j2kbq" name="h2" folder="k6j2kb4" qualityOption="source" file="k6j2kbq.png" size="23,30"/>
+    <image id="k6j2kbs" name="guang" folder="wmnuk50" qualityOption="source" file="k6j2kbs.png" size="119,72"/>
+    <component id="sph8kbt" name="Component64" folder="wmnuk50" file="sph8kbt.xml"/>
+    <image id="sph8kbu" name="jiangjin2" folder="wmnuk50" qualityOption="source" file="sph8kbu.png" size="54,30"/>
+    <image id="sph8kc8" name="lun2" folder="wmnuk50" qualityOption="source" file="sph8kc8.png" size="28,30"/>
+    <image id="sph8kc9" name="shengyu2" folder="wmnuk50" qualityOption="source" file="sph8kc9.png" size="54,30"/>
+    <image id="sph8kca" name="bei2" folder="wmnuk50" qualityOption="source" file="sph8kca.png" size="29,29"/>
+    <component id="s8lpkcb" name="Component78" folder="wmnuk50" file="s8lpkcb.xml"/>
+    <component id="fev9kcd" name="return2" folder="" file="fev9kcd.xml"/>
+    <image id="fev9kce" name="fanhui2" folder="" qualityOption="source" file="fev9kce.png" size="56,59"/>
+    <image id="jntnkcf" name="jiangdanhengtiao" folder="wmnuk50" qualityOption="source" file="jntnkcf.png" size="573,70"/>
+    <component id="tm0akcg" name="Component65" folder="wmnuk50" file="tm0akcg.xml"/>
+    <component id="tm0akch" name="Component66" folder="wmnuk50" file="tm0akch.xml"/>
+    <component id="tm0akci" name="Component67" folder="wmnuk50" file="tm0akci.xml"/>
+    <image id="oyrfkcj" name="xiazhu" folder="wmnuk50" qualityOption="source" file="oyrfkcj.jpg" size="292,209"/>
+    <image id="oyrfkck" name="shouji" folder="wmnuk50" qualityOption="source" file="oyrfkck.jpg" size="292,269"/>
+    <image id="l2egkcl" name="djtaiziji" folder="wmnuk50" qualityOption="source" file="l2egkcl.png" size="260,96"/>
+  </resources>
+  <publish name="slots" genCode="true" zipExt="fui"/>
+</packageDescription>

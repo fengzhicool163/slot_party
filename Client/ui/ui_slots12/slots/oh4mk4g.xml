@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="157,155" extention="Button">
+  <controller name="c1" pages="0,正常,1,自動" selected="0"/>
+  <displayList>
+    <component id="n82" name="n12" src="oh4mk4h" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n83" name="n13" src="oh4mk4i" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <graph id="n80" name="jiantou" xy="0,0" size="157,155">
+      <gearDisplay controller="c1" pages="0"/>
+    </graph>
+    <graph id="n81" name="dianji" xy="0,0" size="157,155">
+      <gearDisplay controller="c1" pages="1"/>
+    </graph>
+  </displayList>
+  <Button/>
+</component>

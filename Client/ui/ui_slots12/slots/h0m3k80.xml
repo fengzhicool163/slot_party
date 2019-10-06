@@ -1,0 +1,6 @@
+<component size="56,59" extention="Button">
+  <displayList>
+    <image id="n16" name="n16" src="h0m3k81" xy="0,0"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

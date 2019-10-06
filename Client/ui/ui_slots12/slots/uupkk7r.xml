@@ -1,0 +1,25 @@
+<component size="640,960">
+  <displayList>
+    <graph id="n54" name="win1" xy="132,147" size="376,147">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n53" name="win2" xy="0,0" size="640,960">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n49" name="win3" xy="0,0" size="640,960">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n64" name="win6" xy="0,0" size="640,960">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n55" name="win5" xy="0,0" size="640,960">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n63" name="win4" xy="0,0" size="640,960">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n51" name="win7" xy="0,0" size="640,960">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+  </displayList>
+</component>

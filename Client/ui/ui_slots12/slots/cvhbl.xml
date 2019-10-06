@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="69,69">
+  <controller name="c1" pages="0,正常,1,问号,2,沒有排名專用" selected="2"/>
+  <displayList>
+    <image id="n33" name="n33" src="ha1y1l" xy="0,2" size="67,66">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n34" name="n34" xy="3,2" size="65,65" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n39" name="n39" src="nix7k3x" xy="0,0" size="69,69" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n40" name="n40" src="q6lnk33" xy="22,13" size="25,42" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n41" name="n41" src="q6lnk33" xy="23,17" size="22,36" aspect="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+  </displayList>
+</component>

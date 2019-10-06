@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,960">
+  <displayList>
+    <image id="n0" name="n0" src="ha1y1v" xy="51,268" size="536,327"/>
+    <image id="n2" name="n2" src="ha1y1m" xy="76,297" size="481,163"/>
+    <text id="n3" name="n3" xy="135,362" size="245,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" text="恭喜你獲得           99999"/>
+    <image id="n4" name="n4" src="r87o9" xy="413,362"/>
+    <component id="n7" name="n7" src="ha1y1x" xy="200,480"/>
+  </displayList>
+</component>

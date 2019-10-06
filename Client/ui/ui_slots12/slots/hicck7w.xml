@@ -1,0 +1,18 @@
+<component size="238,85" extention="Button">
+  <controller name="c1" pages="0,正常,1,不能用" selected="0"/>
+  <displayList>
+    <image id="n5" name="n5" src="ha1y1w" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n8" name="n8" src="hicck7x" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n6" name="title" xy="6,17" size="224,39" font="Adobe 黑体 Std R" fontSize="30" color="#ffffff" align="center" autoSize="height" text="確定">
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

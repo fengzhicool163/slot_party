@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="43,28" extention="Button">
+  <displayList>
+    <image id="n9" name="n9" src="ha1y20" xy="0,0"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

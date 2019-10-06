@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="337,76">
+  <controller name="c1" pages="0,人物,1,文字" selected="1"/>
+  <displayList>
+    <component id="n197" name="n192" src="j3bpka6" xy="90,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n196" name="n193" src="j3bpka5" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n198" name="n194" src="j3bpka7" xy="180,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n199" name="n195" src="j3bpka4" xy="270,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n207" name="n207" src="k6j2kbs" xy="250,21" size="110,72" alpha="0.8">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n201" name="n201" src="j3bpkan" xy="109,24">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n203" name="n203" xy="294,41" size="47,34" font="ui://3ly9g3lak6j2kbp" fontSize="24" color="#ffffff" align="center" letterSpacing="-4" autoSize="height" text="45">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <graph id="n205" name="jinxingzhong" xy="-79,20" size="184,71">
+      <gearDisplay controller="c1" pages="1"/>
+    </graph>
+  </displayList>
+</component>

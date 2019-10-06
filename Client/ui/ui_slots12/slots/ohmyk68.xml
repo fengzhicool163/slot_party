@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,646">
+  <displayList>
+    <image id="n2" name="n2" src="ha1y1m" xy="0,0" size="591,148" alpha="0.45"/>
+    <text id="n17" name="n17" xy="8,16" size="571,129" font="Adobe 黑体 Std R" fontSize="18" color="#ffffff" autoSize="none" text="玩法規則：&#xA;    每一局可以自由選擇線束和下注額，待機器停止時，按照線束方向自左到右如果出現符合獎勵表中的連續相同的元素，則發放單一線束下注額相應倍率的獎勵。&#xA;    每一期會有一個通用圖案可以代替線束上任何一個其他圖案生效。"/>
+    <loader id="n19" name="xianshu1_jpg" xy="0,184" size="290,209"/>
+    <loader id="n20" name="xianshu2_jpg" xy="301,184" size="290,209"/>
+    <loader id="n21" name="xianshu3_jpg" xy="0,416" size="290,209"/>
+    <loader id="n22" name="xianshu4_jpg" xy="301,416" size="290,209"/>
+  </displayList>
+</component>

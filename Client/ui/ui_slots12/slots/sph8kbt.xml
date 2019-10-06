@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,54">
+  <displayList>
+    <image id="n190" name="n190" src="sph8kbu" xy="2,12"/>
+    <text id="n191" name="n191" xy="49,0" size="67,54" font="ui://3ly9g3laf0uhk7q" fontSize="4" letterSpacing="-17" text="33">
+      <relation target="n190" sidePair="left-right"/>
+    </text>
+    <image id="n192" name="n192" src="sph8kc8" xy="277,12">
+      <relation target="n194" sidePair="left-right"/>
+    </image>
+    <image id="n193" name="n193" src="sph8kc9" xy="164,12"/>
+    <text id="n194" name="n194" xy="211,-1" size="67,54" font="ui://3ly9g3laf0uhk7q" fontSize="4" align="center" letterSpacing="-17" text="33">
+      <relation target="n193" sidePair="left-right"/>
+    </text>
+    <image id="n195" name="n195" src="sph8kca" xy="113,13">
+      <relation target="n191" sidePair="left-right"/>
+    </image>
+  </displayList>
+</component>

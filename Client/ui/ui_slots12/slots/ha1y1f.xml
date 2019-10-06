@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,960" opaque="false">
+  <controller name="c1" pages="0,累計鴻運,1,單次鴻運" selected="1"/>
+  <displayList>
+    <image id="n0" name="n0" src="ha1y1v" xy="21,164" size="597,775" locked="true"/>
+    <image id="n60" name="n60" src="vz99k4q" xy="38,263" size="561,639"/>
+    <image id="n68" name="n1" src="9qfok6f" xy="69,-11">
+      <relation target="n0" sidePair="center-center"/>
+    </image>
+    <image id="n67" name="n75" src="9qfok6g" xy="45,118">
+      <relation target="n0" sidePair="center-center"/>
+    </image>
+    <component id="n25" name="frame" src="1077k23" xy="562,138"/>
+    <image id="n4" name="n4" src="ha1y1m" xy="143,134" size="349,37"/>
+    <text id="n5" name="n5" xy="146,138" size="343,34" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" autoSize="height" text="">
+      <relation target="n4" sidePair="top-top,center-center"/>
+    </text>
+    <text id="n58" name="n58" xy="28,905" size="580,28" font="Adobe 黑体 Std R" fontSize="19" color="#ffffff" align="center" autoSize="height" text="累計賺取超過2000U鑽就可以參與角逐累計鴻運榜的排名">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n0" sidePair="center-center"/>
+    </text>
+    <component id="n69" name="n70" src="pd9ik6h" xy="41,214">
+      <Button controller="c1" page="0"/>
+    </component>
+    <component id="n70" name="n72" src="pd9ik6h" xy="318,214">
+      <Button checked="true" title="狂歡派對" controller="c1" page="1"/>
+    </component>
+    <component id="n71" name="n73" src="pd9ik6k" xy="46,276">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n72" name="n74" src="pd9ik6k" xy="46,276">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <text id="n73" name="n76" xy="28,905" size="580,28" font="Adobe 黑体 Std R" fontSize="19" color="#ffffff" align="center" autoSize="height" text="開啟至少一次派對就可以參與角逐狂歡派對榜">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n0" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

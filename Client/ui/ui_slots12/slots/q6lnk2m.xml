@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,960">
+  <controller name="c1" pages="0,正常,1,少烟花,2,少钥匙" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="ha1y1v" xy="51,268" size="536,327" locked="true"/>
+    <image id="n2" name="n2" src="ha1y1m" xy="76,297" size="486,168" locked="true"/>
+    <text id="n3" name="n3" xy="105,327" size="420,113" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <component id="n7" name="n7" src="ha1y1x" xy="96,484" size="219,78" aspect="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n8" name="n8" src="ha1y1x" xy="330,484" size="219,78" aspect="true">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearXY controller="c1" pages="1,2" values="212,484|212,484" default="330,484"/>
+    </component>
+    <image id="n10" name="n10" src="azd7k6u" xy="118,307" size="45,37" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n11" name="n9" xy="173,310" size="380,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" autoSize="height" text="數量不足">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </text>
+    <image id="n12" name="n14" src="azd7k6u" xy="118,361" size="45,37" aspect="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n13" name="n12" xy="175,363" size="380,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" autoSize="height" text="可通過中指定獎項後獲得">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </text>
+    <text id="n14" name="n13" xy="76,414" size="486,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" autoSize="height" text="詳細細節可查詢玩法介紹中的獎勵資訊">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </text>
+    <image id="n15" name="n15" src="r77kk5s" xy="120,305" size="43,45" aspect="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n16" name="n11" src="r77kk5s" xy="120,357" size="43,45" aspect="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+  </displayList>
+</component>

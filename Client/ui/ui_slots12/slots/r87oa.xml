@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="342,88" extention="Button">
+  <controller name="c1" pages="0,正常,1,自动" selected="0"/>
+  <displayList>
+    <component id="n12" name="n12" src="q6lnk2n" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n13" name="n13" src="q6lnk2q" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <graph id="n14" name="002e" xy="0,0" size="342,88">
+      <gearDisplay controller="c1" pages="0"/>
+    </graph>
+    <graph id="n15" name="002f" xy="0,0" size="342,88">
+      <gearDisplay controller="c1" pages="1"/>
+    </graph>
+  </displayList>
+  <Button/>
+</component>

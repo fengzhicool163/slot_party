@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,91" extention="Button">
+  <displayList>
+    <image id="n129" name="n129" src="r77kk5t" xy="1,0"/>
+    <image id="n126" name="n126" src="wmnuk5f" xy="-1,71" size="76,30"/>
+    <text id="n128" name="n128" xy="21,72" size="50,24" font="Adobe 黑体 Std R" fontSize="18" color="#ffffff" autoSize="height" text="99/5"/>
+    <image id="n130" name="n130" src="r77kk5s" xy="3,73" size="18,18" aspect="true"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

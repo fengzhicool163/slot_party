@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectDescription name="UI" type="Egret" id="f58a56eb53d8d510628f729e3766797f">
+  <packages>
+    <package id="3ly9g3la" name="slots"/>
+  </packages>
+  <textSetting font="宋体" size="12"/>
+  <scrollBars/>
+  <codeGenSetting targetPath="/Users/mjm/Desktop/casino/up-casino-slot-party/Client/UpGame/src/game/ui" classNamePrefix="UI_" memberNamePrefix="m_" packageName="ui" ignoreNoname="false" codeType="TS" getMemberByName="true"/>
+</projectDescription>

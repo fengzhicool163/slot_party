@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test PB</title>
+
+    <script src="http://h.cdn.pengpengla.com/h5lib/3.0.0/js/zepto.js"></script>
+    <script src="http://h.cdn.pengpengla.com/h5lib/3.0.0/js/protobuf.js"></script>
+    <script src="libs/upliveproto/upliveproto.js"></script>
+</head>
+<body>
+    <script>
+
+
+//        var reqData = {
+//            appId: 'owngame10000',
+//            uid : 5010219
+//        };
+//        alert($.param(reqData));
+
+        //return;
+
+        var ppgameUpliveProto = window.UpliveProto;
+        var d = 0;
+        
+        function testAPI() {
+            var cfg = {
+                service: 'service',
+                api: '/profile/get',
+                header: {
+                    userToken: '61cPUsW2ce0bf44CAe'
+                }
+            };
+            var data = {
+                vuid: '1000100'
+            };
+            var businessData = new ppgameUpliveProto.Profile.Get.Request(data);
+
+            var prefix = 'https://proxy.upliveapps.com/index/index';
+//            var prefix = 'http://proxy.upliveapp.com/index/index';
+            var _url = prefix + '?' + $.param(cfg);
+            var timer, xhr;
+
+//            timer = setTimeout(function() {
+//                timeout();
+//            }, 5000);
+
+            try {
+                xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+                xhr.open("POST", _url, true);
+                xhr.responseType = "arraybuffer";
+
+                try {
+                    xhr.send(businessData.toArrayBuffer());
+                } catch(e) {
+                    xhr.send();
+                }
+            } catch(e) {
+                alert('please upgrade your brower, such as chrome!');
+            }
+
+            xhr.onreadystatechange = function(data) {
+                if(xhr.readyState == 4){
+                    if(xhr.status == 200){
+//                        clearTimeout(timer);
+//                        console.log(xhr.response);
+                        var res = xhr.response;
+                        console.log('res:', res);
+                        var dataWrap = ppgameUpliveProto.Result.decode(res);
+                        console.log('dataWrap', dataWrap);
+
+                        if (dataWrap.code == 1) {
+
+                            data = ppgameUpliveProto.Profile.Get.Response.decode(dataWrap.data.value);
+                            console.log('profile', data);
+
+                            if (data && data.profile) {
+                                var uid = longToString(data.profile.uid);
+                                console.log('uid', uid);
+                            }
+
+                        } else {
+
+                            if (dataWrap.code == 8192) {
+                                alert('login required');
+                            }
+                        }
+
+                    } else {
+//                        if (typeof fail == 'function') {
+//                            fail();
+//                        }
+                        console.log('fail');
+                    }
+                }
+            }
+        }
+
+        testAPI();
+    </script>
+</body>
+</html>

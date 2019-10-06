@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,960" opaque="false">
+  <controller name="c1" pages="0,白天,1,晚上" selected="0"/>
+  <displayList>
+    <loader id="n191" name="bgwan_jpg" xy="0,50" size="640,271" fill="scaleFree">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="top-top,width-width"/>
+    </loader>
+    <loader id="n47" name="bg_jpg" xy="0,50" size="640,271" fill="scaleFree">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="top-top,width-width"/>
+    </loader>
+    <graph id="n151" name="bg01" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,width-width"/>
+    </graph>
+    <image id="n185" name="n185" src="sql5k9x" xy="265,51">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n187" name="n187" src="sql5k9u" xy="265,51">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n137" name="n137" src="9qfok6e" xy="0,773" size="640,186">
+      <relation target="" sidePair="height-height,width-width"/>
+    </image>
+    <image id="n203" name="n203" src="ca07kap" xy="306,245">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n213" name="n213" src="v3bokb0" xy="5,100">
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n211" name="n211" src="v3bokay" xy="332,71">
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n186" name="n186" src="sql5k9v" xy="168,-23">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n188" name="n188" src="sql5k9w" xy="169,-23">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <graph id="n46" name="girl004" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n218" name="girl004st" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <image id="n209" name="n209" src="ca07kaw" xy="91,121">
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n206" name="n206" src="ca07kar" xy="464,52">
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n224" name="n224" src="l2egkcl" xy="298,213">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <graph id="n140" name="girl003" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n217" name="girl003st" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n139" name="girl002" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n216" name="girl002st" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n148" name="girl001" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n215" name="girl001st" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <image id="n214" name="n214" src="v3bokb1" xy="-2,164">
+      <relation target="n213" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n212" name="n212" src="v3bokaz" xy="293,144">
+      <relation target="n211" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n210" name="n210" src="ca07kax" xy="77,201">
+      <relation target="n209" sidePair="top-top,center-center"/>
+    </image>
+    <image id="n207" name="n207" src="ca07kas" xy="477,157">
+      <relation target="n206" sidePair="top-top,center-center"/>
+    </image>
+    <graph id="n149" name="dianjitexiao" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n221" name="paiduideng" xy="0,50" size="640,271">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n219" name="dengguang" xy="0,50" size="640,271">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n220" name="dengqiu" xy="0,50" size="640,271">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n152" name="xiangbing02" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n150" name="xiangbing01" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <image id="n85" name="n85" src="wmnuk5g" xy="0,306" size="640,479">
+      <relation target="" sidePair="top-top,width-width"/>
+    </image>
+    <image id="n190" name="n190" src="sql5k9t" xy="0,306" size="640,60">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n85" sidePair="top-top,width-width"/>
+    </image>
+    <image id="n134" name="n134" src="ii83k6b" xy="26,922" size="408,33">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </image>
+    <graph id="n67" name="guang1" xy="22,376" size="120,378" fillColor="#ff669933">
+      <relation target="n85" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n68" name="guang2" xy="141,376" size="120,378" fillColor="#ff669933">
+      <relation target="n85" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n69" name="guang3" xy="260,376" size="120,378" fillColor="#ff669933">
+      <relation target="n85" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n118" name="guang4" xy="379,376" size="120,378" fillColor="#ff669933">
+      <relation target="n85" sidePair="top-top,center-center"/>
+    </graph>
+    <graph id="n119" name="guang5" xy="498,376" size="120,378" fillColor="#ff669933">
+      <relation target="n85" sidePair="top-top,center-center"/>
+    </graph>
+    <component id="n41" name="n41" src="nix7k4a" xy="104,273">
+      <relation target="" sidePair="top-top,left-left"/>
+    </component>
+    <component id="n142" name="n142" src="f0uhk77" xy="185,273" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="top-top,center-center"/>
+    </component>
+    <component id="n129" name="n129" src="r77kk5v" xy="544,273" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="top-top,center-center"/>
+    </component>
+    <component id="n223" name="n223" src="sph8kbt" xy="312,240">
+      <relation target="" sidePair="top-top,right-right"/>
+    </component>
+    <component id="n104" name="n104" src="wmnuk5k" xy="21,273">
+      <relation target="" sidePair="top-top,left-left"/>
+    </component>
+    <component id="n162" name="n81" src="axfsk8l" xy="162,786">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <component id="n163" name="n80" src="axfsk8o" xy="22,786">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <component id="n164" name="n82" src="axfsk8r" xy="302,786">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <graph id="n222" name="paiduikaishi" xy="0,50" size="640,271">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <component id="n157" name="hud_hud" src="gkspk8h" xy="0,0" size="640,78">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n121" name="n121" src="wmnuk5o" xy="22,853">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <graph id="n130" name="laohujinew001_shuzi" xy="0,377" size="640,406" locked="true">
+      <relation target="" sidePair="top-top,width-width"/>
+    </graph>
+    <component id="n123" name="n123" src="wmnuk5p" xy="162,854">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <component id="n125" name="n125" src="wmnuk5q" xy="302,854">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <graph id="n145" name="chushuzi01" xy="0,0" size="640,960" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n135" name="n135" xy="26,927" size="408,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" align="center" autoSize="height" text="每次消耗 199 U鑽">
+      <relation target="n134" sidePair="top-top,center-center"/>
+    </text>
+    <graph id="n133" name="laohujinew001_dianji2" xy="543,270" size="77,80" locked="true" hideByEditor="true" visible="false">
+      <relation target="" sidePair="top-top,center-center"/>
+    </graph>
+    <component id="n9" name="n9" src="oh4mk4g" xy="456,790">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </component>
+    <component id="n156" name="n156" src="spdsk8f" xy="0,0" size="640,36" touchable="false">
+      <relation target="" sidePair="top-top,width-width"/>
+    </component>
+    <component id="n201" name="n192" src="j3bpkal" xy="283,283">
+      <relation target="n85" sidePair="top-top,right-right"/>
+    </component>
+    <component id="n181" name="n181" src="b42dk99" xy="0,254" locked="true"/>
+    <graph id="n153" name="zuanshi" xy="0,32" size="640,360" locked="true">
+      <relation target="" sidePair="top-top,center-center"/>
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n143" name="yaoshi" xy="0,0" size="640,960" locked="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n144" name="yanhua" xy="0,0" size="640,960" locked="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <graph id="n146" name="chushuzi02" xy="0,0" size="640,960" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n147" name="chushuzi03" xy="0,0" size="640,960" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

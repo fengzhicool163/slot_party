@@ -1,0 +1,7 @@
+<component size="77,80" extention="Button">
+  <displayList>
+    <image id="n41" name="n41" src="f0uhk78" xy="0,0"/>
+    <text id="n42" name="n42" xy="-2,72" size="76,24" font="Adobe 黑体 Std R" fontSize="18" color="#ffffff" align="center" autoSize="height" strokeColor="#350c3c" text="消費返利"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

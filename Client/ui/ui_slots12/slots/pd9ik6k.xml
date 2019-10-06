@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="550,619">
+  <displayList>
+    <image id="n11" name="n11" src="ha1y1l" xy="0,255" size="548,364"/>
+    <list id="n24" name="n24" xy="5,260" size="545,351" overflow="scroll" margin="0,0,0,0" lineGap="3" defaultItem="ui://3ly9g3laha1y1t">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n39" name="n39" src="cvhbl" xy="214,37" size="116,113" aspect="true"/>
+    <component id="n40" name="n40" src="cvhbl" xy="43,56" size="102,99" aspect="true"/>
+    <component id="n41" name="n41" src="cvhbl" xy="402,56" size="102,99" aspect="true"/>
+    <image id="n42" name="n42" src="q6lnk30" xy="197,138">
+      <relation target="n39" sidePair="top-bottom,center-center"/>
+    </image>
+    <image id="n44" name="n44" src="ha1y1i" xy="60,23">
+      <relation target="n40" sidePair="center-center"/>
+    </image>
+    <image id="n43" name="n43" src="ha1y1j" xy="235,0">
+      <relation target="n39" sidePair="center-center"/>
+    </image>
+    <image id="n45" name="n45" src="q6lnk2z" xy="25,142">
+      <relation target="n40" sidePair="top-bottom,center-center"/>
+    </image>
+    <image id="n46" name="n46" src="q6lnk2y" xy="383,141">
+      <relation target="n41" sidePair="top-bottom,center-center"/>
+    </image>
+    <image id="n47" name="n47" src="ha1y1h" xy="419,22">
+      <relation target="n41" sidePair="center-center"/>
+    </image>
+    <text id="n8" name="n8" xy="44,149" size="100,26" font="Adobe 黑体 Std R" fontSize="20" color="#004e7f" align="center" autoSize="height" text="No.2">
+      <relation target="n45" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n9" name="n9" xy="403,149" size="100,26" font="Adobe 黑体 Std R" fontSize="20" color="#721f0a" align="center" autoSize="height" text="No.3">
+      <relation target="n46" sidePair="top-top,center-center"/>
+    </text>
+    <text id="n26" name="n26" xy="223,145" size="100,30" font="Adobe 黑体 Std R" fontSize="23" color="#b24a16" align="center" autoSize="height" text="No.1">
+      <relation target="n42" sidePair="top-top,center-center"/>
+    </text>
+    <text id="n48" name="n48" xy="20,180" size="145,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" autoSize="height" text="">
+      <relation target="n40" sidePair="top-top,center-center"/>
+    </text>
+    <text id="n49" name="n49" xy="201,180" size="145,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" autoSize="height" text="">
+      <relation target="n39" sidePair="top-top,center-center"/>
+    </text>
+    <text id="n50" name="n50" xy="383,180" size="145,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" autoSize="height" text="">
+      <relation target="n41" sidePair="top-top,center-center"/>
+    </text>
+    <component id="n51" name="n55" src="q6lnk32" xy="26,215"/>
+    <component id="n52" name="n56" src="q6lnk32" xy="209,215"/>
+    <component id="n53" name="n57" src="q6lnk32" xy="388,215"/>
+  </displayList>
+</component>

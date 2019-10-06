@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,646">
+  <displayList>
+    <image id="n2" name="n2" src="ha1y1m" xy="0,0" size="591,643" alpha="0.45"/>
+    <text id="n17" name="n17" xy="7,418" size="278,226" font="Adobe 黑体 Std R" fontSize="18" color="#ffffff" autoSize="none" text="1、玩家在遊戲過程中可以通過線束經過來收集4位美女的頭像&#xA;2、頭像被玩家選擇的多個線束經過的話會被收集多次&#xA;3、玩家在進行20和50下注額的時候，收集的進度還會變快"/>
+    <loader id="n19" name="jietu1_jpg" xy="7,9" size="278,407"/>
+    <loader id="n20" name="jietu2_jpg" xy="301,9" size="278,407"/>
+    <text id="n23" name="n23" xy="301,418" size="278,226" font="Adobe 黑体 Std R" fontSize="18" color="#ffffff" autoSize="none" text="1、當任一美女收集進度達到100%的時候可以點擊頭像獲得一些隨機獎勵&#xA;2、同時該美女狀態會變為READY狀態&#xA;3、獎勵包括免費次數以及未來若干回合獎金2倍的獎勵&#xA;4、同時獲得多個相同獎勵的話，回合數會疊加"/>
+  </displayList>
+</component>

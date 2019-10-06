@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="233,64" extention="ProgressBar">
+  <displayList>
+    <image id="n9" name="n9" src="q6lnk2u" xy="7,7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n10" name="bar" src="q6lnk2t" xy="10,10" size="212,44">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n11" name="title" xy="0,15" size="233,38" font="Adobe 黑体 Std R" fontSize="30" color="#ffffff" align="center" autoSize="none" text="100%">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <jta id="n12" name="n12" src="q6lnk2x" xy="157,-19" aspect="true">
+      <relation target="n10" sidePair="top-top,right-right"/>
+    </jta>
+  </displayList>
+  <ProgressBar/>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="18,18" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n13" name="n13" src="ohmyk5y" xy="0,0">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <image id="n14" name="n14" src="ohmyk5x" xy="3,3">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

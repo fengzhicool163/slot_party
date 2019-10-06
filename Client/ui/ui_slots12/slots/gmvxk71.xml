@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="548,616">
+  <displayList>
+    <image id="n35" name="n35" src="ha1y1m" xy="0,73" size="547,325" alpha="0.45"/>
+    <text id="n34" name="n34" xy="13,12" size="520,34" font="Adobe 黑体 Std R" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="累計鴻運和單次鴻運榜各自結算發獎"/>
+    <text id="n36" name="n36" xy="4,96" size="540,39" font="Adobe 黑体 Std R" fontSize="30" color="#fff541" align="center" autoSize="none" text="第1名：  10888U鑽"/>
+    <text id="n37" name="n37" xy="4,154" size="540,39" font="Adobe 黑体 Std R" fontSize="30" color="#fff541" align="center" autoSize="none" text="第2名：     6666U鑽"/>
+    <text id="n38" name="n38" xy="4,212" size="540,39" font="Adobe 黑体 Std R" fontSize="30" color="#fff541" align="center" autoSize="none" text="第3名：     2888U鑽"/>
+    <text id="n39" name="n39" xy="4,271" size="540,39" font="Adobe 黑体 Std R" fontSize="30" color="#fff541" align="center" autoSize="none" text="第4-5名： 1888U鑽"/>
+    <text id="n40" name="n40" xy="4,333" size="540,39" font="Adobe 黑体 Std R" fontSize="30" color="#fff541" align="center" autoSize="none" text="第6-10名： 888U鑽"/>
+    <image id="n41" name="n41" src="ha1y1m" xy="0,419" size="547,181" alpha="0.45"/>
+    <text id="n42" name="n42" xy="4,452" size="540,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="鴻運大禮會在活動結束后3個工作日內發放"/>
+    <text id="n43" name="n43" xy="4,497" size="540,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="排行榜資訊刷新可能存在少許延遲"/>
+    <text id="n44" name="n44" xy="4,540" size="540,33" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="根據網路狀況，U鑽發放可能存在短暫的延遲&#xA;"/>
+  </displayList>
+</component>

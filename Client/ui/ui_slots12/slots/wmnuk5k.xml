@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="77,80" extention="Button">
+  <displayList>
+    <image id="n103" name="n103" src="wmnuk54" xy="0,0"/>
+    <text id="n104" name="n104" xy="-1,72" size="76,24" font="Adobe 黑体 Std R" fontSize="18" color="#ffffff" align="center" autoSize="height" strokeColor="#350c3c" text="玩法介紹"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

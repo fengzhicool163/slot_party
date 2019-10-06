@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,960">
+  <displayList>
+    <image id="n0" name="n0" src="ha1y1v" xy="11,180" size="616,535" locked="true"/>
+    <image id="n41" name="n41" src="9qfok6g" xy="46,133" aspect="true"/>
+    <component id="n9" name="frame" src="1077k23" xy="568,153"/>
+    <text id="n42" name="n42" xy="106,151" size="424,39" font="Adobe 黑体 Std R" fontSize="30" color="#ffffff" align="center" autoSize="height" text="消費返利"/>
+    <text id="n43" name="n43" xy="51,233" size="536,85" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="在直播間每消耗1000U鑽可獲得1次免費遊戲次數。&#xA;未領取的免費遊戲次數只有在活動結束時才清零。"/>
+    <image id="n44" name="n44" src="f0uhk7a" xy="50,330" size="538,57"/>
+    <image id="n45" name="n45" src="f0uhk7b" xy="50,387" size="538,57"/>
+    <image id="n46" name="n46" src="f0uhk7a" xy="50,443" size="538,57"/>
+    <image id="n47" name="n47" src="f0uhk7b" xy="50,501" size="538,57"/>
+    <component id="n49" name="n49" src="hicck7w" xy="202,592" pivot="0.5,0.5">
+      <Button title="領取"/>
+    </component>
+    <text id="n50" name="n50" xy="119,345" size="290,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" autoSize="height" text="直播間累計消費U鑽數"/>
+    <text id="n51" name="n51" xy="119,401" size="290,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" autoSize="height" text="累計返還免費次數"/>
+    <text id="n52" name="n52" xy="119,458" size="290,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" autoSize="height" text="距下次次數所需鑽數"/>
+    <text id="n54" name="n54" xy="119,513" size="290,31" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" autoSize="height" text="尚未領取的免費次數"/>
+    <text id="n55" name="n55" xy="408,345" size="175,31" font="Adobe 黑体 Std R" fontSize="24" color="#fff725" autoSize="height" text="9999999"/>
+    <text id="n56" name="n56" xy="408,401" size="175,31" font="Adobe 黑体 Std R" fontSize="24" color="#fff725" autoSize="height" text="9999999"/>
+    <text id="n57" name="n57" xy="408,458" size="175,31" font="Adobe 黑体 Std R" fontSize="24" color="#fff725" autoSize="height" text="9999999"/>
+    <text id="n59" name="n59" xy="408,513" size="175,31" font="Adobe 黑体 Std R" fontSize="24" color="#fff725" autoSize="height" text="9999999"/>
+  </displayList>
+</component>

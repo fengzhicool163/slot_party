@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="127,33">
+  <controller name="c1" pages="0,正常,1,只有字" selected="1"/>
+  <displayList>
+    <image id="n51" name="n51" src="q6lnk31" xy="-6,0" size="140,33">
+      <gearDisplay controller="c1" pages="1,0"/>
+      <gearXY controller="c1" pages="1" values="-6,0" default="7,0"/>
+      <gearSize controller="c1" pages="1" values="140,33,1,1" default="120,33,1,1"/>
+    </image>
+    <image id="n52" name="n52" src="r87o9" xy="0,1" size="40,30" aspect="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n54" name="n54" xy="-6,5" size="140,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" align="center" autoSize="height" text="已開啟999次">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="1" values="-6,5" default="48,5"/>
+      <gearSize controller="c1" pages="1" values="140,29,1,1" default="71,29,1,1"/>
+      <gearText controller="c1" pages="1" values="已開啟999次" default="999999"/>
+    </text>
+  </displayList>
+</component>

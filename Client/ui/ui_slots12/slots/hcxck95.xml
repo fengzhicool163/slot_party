@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,14" extention="ProgressBar">
+  <displayList>
+    <image id="n177" name="n177" src="hcxck93" xy="0,0" size="160,14">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n176" name="bar" src="hcxck94" xy="2,2" size="156,10">
+      <gearDisplay controller=""/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+</component>

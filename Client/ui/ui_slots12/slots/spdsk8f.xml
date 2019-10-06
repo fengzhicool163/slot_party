@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,36">
+  <displayList>
+    <image id="n7" name="n7" src="nix7k3v" xy="0,0" size="640,36" alpha="0.75">
+      <relation target="" sidePair="top-top,width-width"/>
+    </image>
+    <component id="n35" name="n35" src="cvhbm" xy="0,4" size="640,29">
+      <relation target="n7" sidePair="top-top,width-width"/>
+    </component>
+  </displayList>
+</component>

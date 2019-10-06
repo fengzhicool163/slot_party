@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="262,154">
+  <displayList>
+    <image id="n19" name="n19" src="ohmyk61" xy="0,0" size="262,154" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n20" name="n20" src="ohmyk60" xy="163,0" size="99,154" locked="true">
+      <relation target="" sidePair="height-height,width-width"/>
+    </image>
+    <image id="n39" name="n39" src="ohmyk5z" xy="0,118" size="262,36"/>
+    <text id="n29" name="n29" xy="139,10" size="16,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" text="5"/>
+    <text id="n30" name="n30" xy="139,46" size="16,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" text="4"/>
+    <text id="n31" name="n31" xy="139,83" size="16,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" text="3"/>
+    <text id="n32" name="n32" xy="173,10" size="80,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" autoSize="height" text="100X"/>
+    <text id="n33" name="n33" xy="173,46" size="80,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" autoSize="height" text="25X"/>
+    <text id="n34" name="n34" xy="173,83" size="80,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" autoSize="height" text="8X"/>
+    <image id="n36" name="n36" src="azd7k6q" xy="11,0"/>
+    <text id="n37" name="n37" xy="139,122" size="16,29" font="Adobe 黑体 Std R" fontSize="20" color="#fff541" text="2"/>
+    <text id="n38" name="n38" xy="173,122" size="80,29" font="Adobe 黑体 Std R" fontSize="20" color="#fff541" autoSize="height" text="2X"/>
+    <text id="n40" name="n40" xy="40,122" size="65,29" font="Adobe 黑体 Std R" fontSize="20" color="#fff541" text="僅派對"/>
+  </displayList>
+</component>

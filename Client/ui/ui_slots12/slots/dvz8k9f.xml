@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,14">
+  <controller name="c1" pages="0,藍色,1,黃色,2,紅色" selected="2"/>
+  <displayList>
+    <component id="n178" name="n178" src="dvz8k9e" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n179" name="n179" src="dvz8k9d" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="width-width"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n180" name="n180" src="hcxck95" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+  </displayList>
+</component>

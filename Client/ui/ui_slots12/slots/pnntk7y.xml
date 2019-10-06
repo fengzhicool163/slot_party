@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,960">
+  <controller name="c1" pages="0,正常,1,累計鴻運,2,單次鴻運" selected="1"/>
+  <displayList>
+    <loader id="n66" name="jiangdanjpg" xy="0,0" size="640,960" locked="true" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n67" name="n67" xy="76,480" size="53,34" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" text="排名">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearXY controller="c1" pages="0" values="76,459" default="76,480"/>
+      <relation target="n66" sidePair="top-top,center-center"/>
+    </text>
+    <text id="n68" name="n68" xy="203,480" size="165,34" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" autoSize="height" text="玩家">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearXY controller="c1" pages="0" values="203,459" default="203,480"/>
+      <relation target="n66" sidePair="top-top,center-center"/>
+    </text>
+    <text id="n69" name="n69" xy="405,480" size="165,34" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" autoSize="height" text="賺取U鑚">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearXY controller="c1" pages="0" values="405,459" default="405,480"/>
+      <gearText controller="c1" pages="1,2" values="賺取U鑚|開啟次數" default="獲得獎勵"/>
+      <relation target="n66" sidePair="top-top,center-center"/>
+    </text>
+    <list id="n99" name="n79" xy="34,522" size="573,397" overflow="scroll" lineGap="10" defaultItem="ui://3ly9g3lapnntk7z">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="top-top,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n100" name="n80" xy="34,522" size="573,397" overflow="scroll" lineGap="10" defaultItem="ui://3ly9g3lapnntk7z">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="top-top,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n96" name="n78" xy="32,506" size="573,389" overflow="scroll" lineGap="10" defaultItem="ui://3ly9g3lapnntk7z">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="top-top,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n83" name="n83" xy="0,932" size="640,29" alpha="0.8" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" align="center" autoSize="height" text="鴻運大禮會在活動結束后3個工作日內發放">
+      <relation target="n66" sidePair="bottom-bottom,width-width"/>
+    </text>
+    <loader id="n101" name="jiangdan_star_png" xy="79,1" size="485,432">
+      <relation target="" sidePair="top-top,center-center"/>
+    </loader>
+    <image id="n85" name="n85" src="uupkk7v" xy="31,460" size="576,470" locked="true">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearXY controller="c1" pages="0,1,2" values="29,437|31,460|31,460" default="31,437"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <component id="n89" name="n89" src="pd9ik6h" xy="40,409">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="" sidePair="top-top,center-center"/>
+      <Button checked="true" controller="c1" page="1"/>
+    </component>
+    <component id="n90" name="n90" src="pd9ik6h" xy="316,409">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <relation target="" sidePair="top-top,center-center"/>
+      <Button title="狂歡派對" controller="c1" page="2"/>
+    </component>
+    <component id="n103" name="n103" src="fev9kcd" xy="11,8">
+      <relation target="" sidePair="top-top,left-left"/>
+    </component>
+  </displayList>
+</component>

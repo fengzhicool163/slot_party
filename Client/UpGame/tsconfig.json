@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"outDir": "bin-debug",
+		"sourceMap": true,
+		"lib": [
+			"es5",
+			"dom",
+			"es2015.promise"
+		]
+	},
+	"exclude": [
+		"bin-debug",
+		"bin-release",
+		"resource"
+	]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="74,72" extention="Button">
+  <controller name="c1" pages="0,正常,1,有紅點,2,有文字提示" selected="2" transitions="*-2=t1"/>
+  <displayList>
+    <image id="n14" name="n14" src="h0m3k83" xy="9,0">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </image>
+    <component id="n21" name="n21" src="h2z5k86" xy="1,0">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <graph id="n16" name="texiao2" xy="0,0" size="74,72">
+      <gearDisplay controller="c1" pages="1"/>
+    </graph>
+    <image id="n17" name="n17" src="h2z5k85" xy="1,4">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t1">
+    <item time="0" type="XY" target="n21" tween="true" startValue="1,0" endValue="-162,0" duration="12" ease="Back.Out"/>
+    <item time="12" type="XY" target="n21" tween="true" startValue="-162,0" endValue="-162,0" duration="24"/>
+    <item time="36" type="XY" target="n21" tween="true" startValue="-162,0" endValue="1,0" duration="12"/>
+  </transition>
+</component>

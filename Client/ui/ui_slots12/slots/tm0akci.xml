@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="591,548">
+  <displayList>
+    <image id="n2" name="n2" src="ha1y1m" xy="0,0" size="591,209" locked="true" hideByEditor="true" alpha="0.45"/>
+    <image id="n28" name="n28" src="ohmyk61" xy="13,13" size="562,175"/>
+    <image id="n31" name="n31" src="ohmyk60" xy="13,51" size="562,147"/>
+    <image id="n29" name="n29" src="ohmyk5z" xy="13,172" size="562,39"/>
+    <image id="n24" name="n24" src="sql5k9n" xy="28,49"/>
+    <image id="n25" name="n25" src="sql5k9l" xy="162,49"/>
+    <image id="n26" name="n26" src="sql5k9j" xy="301,49"/>
+    <image id="n27" name="n27" src="j3bpk9z" xy="430,49"/>
+    <text id="n30" name="n30" xy="15,19" size="557,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" align="center" autoSize="height" text="收集個數"/>
+    <text id="n32" name="n32" xy="24,181" size="127,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" align="center" autoSize="height" text="30個"/>
+    <text id="n33" name="n33" xy="160,181" size="127,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" align="center" autoSize="height" text="30個"/>
+    <text id="n34" name="n34" xy="296,181" size="127,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" align="center" autoSize="height" text="30個"/>
+    <text id="n35" name="n35" xy="431,181" size="127,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" align="center" autoSize="height" text="30個"/>
+    <loader id="n76" name="xiazhu_jpg" xy="16,236" size="292,209" scale="0.95,0.95" fill="scaleFree"/>
+    <loader id="n77" name="shouji_jpg" xy="299,236" size="292,269" scale="0.95,0.95" fill="scaleFree"/>
+  </displayList>
+</component>

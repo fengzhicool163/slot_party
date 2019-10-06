@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="67,76" extention="Button">
+  <controller name="c1" pages="0,進行中,1,完成" selected="0"/>
+  <displayList>
+    <image id="n193" name="n193" src="j3bpka2" xy="0,0"/>
+    <text id="n194" name="n194" xy="2,52" size="63,24" font="ui://3ly9g3laj3bpkaj" fontSize="12" align="center" letterSpacing="-3" text="100%">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </text>
+    <image id="n195" name="n195" src="j3bpkak" xy="-21,29">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="top-top,center-center"/>
+    </image>
+    <graph id="n196" name="dianjitexiao " xy="0,0" size="67,76"/>
+    <graph id="n197" name="tishi " xy="0,0" size="67,76"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.98"/>
+</component>

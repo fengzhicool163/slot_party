@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="527,214" overflow="hidden">
+  <displayList>
+    <graph id="n15" name="n15" xy="-65,-524" size="640,960" locked="true" hideByEditor="true" visible="false"/>
+    <graph id="n16" name="zhuanpan1" xy="0,0" size="171,214" fillColor="#ff669933"/>
+    <graph id="n17" name="zhuanpan2" xy="178,0" size="171,214"/>
+    <graph id="n18" name="zhuanpan3" xy="357,0" size="171,214"/>
+  </displayList>
+</component>

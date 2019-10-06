@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,960">
+  <controller name="c1" pages="0,一,3,二,4,三,5,四,2,五" selected="2"/>
+  <displayList>
+    <image id="n0" name="n0" src="ohmyk62" xy="11,111" size="616,772" locked="true"/>
+    <image id="n8" name="n8" src="vz99k4r" xy="9,79" size="618,57" aspect="true"/>
+    <component id="n9" name="frame" src="1077k23" xy="572,77"/>
+    <text id="n3" name="n3" xy="66,93" size="507,37" font="Adobe 黑体 Std R" fontSize="26" color="#ffffff" align="center" autoSize="height" text="玩法介紹"/>
+    <component id="n18" name="n18" src="ohmyk68" xy="24,168">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n31" name="n32" src="gmvxk70" xy="43,149">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <image id="n36" name="n36" src="ha1y1m" xy="232,815" size="170,46" alpha="0.45"/>
+    <component id="n35" name="n35" src="ynemk73" xy="395,810"/>
+    <text id="n30" name="n30" xy="296,821" size="49,42" font="Adobe 黑体 Std R" fontSize="30" color="#ffffff" text="3/5">
+      <gearDisplay controller="c1" pages="0,3,4,5,2"/>
+      <gearText controller="c1" pages="0,3,4,5,2" values="1/5|2/5|3/5|4/5|5/5" default="1/2"/>
+    </text>
+    <component id="n38" name="n38" src="ynemk74" xy="185,810"/>
+    <component id="n39" name="n39" src="tm0akcg" xy="24,153">
+      <gearDisplay controller="c1" pages="3"/>
+    </component>
+    <component id="n40" name="n40" src="tm0akch" xy="24,153">
+      <gearDisplay controller="c1" pages="4"/>
+    </component>
+    <component id="n41" name="n41" src="tm0akci" xy="25,197">
+      <gearDisplay controller="c1" pages="5"/>
+    </component>
+  </displayList>
+</component>

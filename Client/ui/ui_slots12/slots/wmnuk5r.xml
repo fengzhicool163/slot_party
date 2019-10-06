@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="79,91" extention="Button">
+  <displayList>
+    <image id="n129" name="n129" src="r77kk5u" xy="1,1"/>
+    <image id="n126" name="n126" src="wmnuk5f" xy="0,72" size="76,30"/>
+    <text id="n128" name="n128" xy="1,73" size="72,24" font="Adobe 黑体 Std R" fontSize="18" color="#ffffff" align="center" autoSize="height" text="0/5"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

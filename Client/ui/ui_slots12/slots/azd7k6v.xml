@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="262,154">
+  <displayList>
+    <image id="n19" name="n19" src="ohmyk61" xy="0,0" size="262,154" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n20" name="n20" src="ohmyk60" xy="163,0" size="99,154" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n29" name="n29" xy="139,10" size="16,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" text="5"/>
+    <text id="n30" name="n30" xy="139,46" size="16,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" text="4"/>
+    <text id="n31" name="n31" xy="139,83" size="16,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" text="3"/>
+    <text id="n32" name="n32" xy="173,10" size="80,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" autoSize="height" text="1000X"/>
+    <text id="n33" name="n33" xy="173,46" size="80,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" autoSize="height" text="100X"/>
+    <text id="n34" name="n34" xy="173,83" size="80,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" autoSize="height" text="20X"/>
+    <image id="n36" name="n36" src="azd7k6s" xy="11,0"/>
+  </displayList>
+</component>

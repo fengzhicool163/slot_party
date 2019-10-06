@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="536,80">
+  <controller name="c1" pages="0,正常,1,沒排名,2,積分" selected="2"/>
+  <displayList>
+    <image id="n12" name="n12" src="ha1y1p" xy="0,0"/>
+    <component id="n18" name="n18" src="cvhbl" xy="114,4" aspect="true"/>
+    <text id="n19" name="n19" xy="207,23" size="101,34" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" text="虛位以待"/>
+    <image id="n21" name="n21" src="r87o9" xy="363,22" size="40,30" aspect="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n22" name="n22" xy="406,23" size="96,34" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" text="9999999">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n23" name="n23" xy="29,23" size="65,34" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" align="center" autoSize="height" text="4"/>
+    <text id="n24" name="n24" xy="347,23" size="169,34" font="Adobe 黑体 Std R" fontSize="24" color="#ffffff" text="已開啟派對 X次">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+  </displayList>
+</component>

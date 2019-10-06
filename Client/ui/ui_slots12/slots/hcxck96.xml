@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="229,181">
+  <controller name="c1" pages="0,普通,1,高級" selected="0"/>
+  <displayList>
+    <image id="n172" name="n172" src="hcxck92" xy="0,46"/>
+    <image id="n170" name="n170" src="hcxck91" xy="2,0">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </image>
+    <image id="n173" name="n173" src="hcxck90" xy="0,1">
+      <gearDisplay controller="c1" pages="1,3"/>
+    </image>
+    <loader id="n179" name="n179" xy="82,10" size="65,65" aspect="true"/>
+    <text id="n174" name="n174" xy="93,71" size="43,34" font="Adobe 黑体 Std R" fontSize="24" color="#65224e" strokeColor="#ffffff" text="x99"/>
+    <text id="n175" name="n175" xy="13,114" size="202,29" font="Adobe 黑体 Std R" fontSize="20" color="#65224e" align="center" autoSize="height" text="剩餘回合：99"/>
+    <component id="n178" name="n177" src="dvz8k9f" xy="12,152" size="147,14">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearXY controller="c1" pages="0,1" values="12,152|12,152" default="33,152"/>
+    </component>
+    <text id="n180" name="n180" xy="159,145" size="56,29" font="Adobe 黑体 Std R" fontSize="20" color="#ffffff" leading="0" strokeColor="#65224e" text="99/99">
+      <gearDisplay controller="c1" pages="2,3"/>
+    </text>
+    <graph id="n181" name="dianji2" xy="0,0" size="229,181" locked="true">
+      <gearDisplay controller="c1" pages="2,3"/>
+    </graph>
+  </displayList>
+</component>
