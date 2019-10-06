@@ -1,0 +1,130 @@
+[
+  {
+    "minigameId": "minigame001",
+    "rewardId": 1,
+    "rewardtype": 1,
+    "rewardlevel": 1,
+    "rewardValue": 2,
+    "rewardRate": 0.05
+  },
+  {
+    "minigameId": "minigame001",
+    "rewardId": 1,
+    "rewardtype": 1,
+    "rewardlevel": 1,
+    "rewardValue": 1,
+    "rewardRate": 0.25
+  },
+  {
+    "minigameId": "minigame001",
+    "rewardId": 1,
+    "rewardtype": 3,
+    "rewardlevel": 1,
+    "rewardValue": 2,
+    "rewardRate": 0.2
+  },
+  {
+    "minigameId": "minigame001",
+    "rewardId": 1,
+    "rewardtype": 3,
+    "rewardlevel": 1,
+    "rewardValue": 1,
+    "rewardRate": 0.5
+  },
+  {
+    "minigameId": "minigame002",
+    "rewardId": 2,
+    "rewardtype": 1,
+    "rewardlevel": 1,
+    "rewardValue": 2,
+    "rewardRate": 0.05
+  },
+  {
+    "minigameId": "minigame002",
+    "rewardId": 2,
+    "rewardtype": 1,
+    "rewardlevel": 1,
+    "rewardValue": 1,
+    "rewardRate": 0.25
+  },
+  {
+    "minigameId": "minigame002",
+    "rewardId": 2,
+    "rewardtype": 3,
+    "rewardlevel": 1,
+    "rewardValue": 2,
+    "rewardRate": 0.2
+  },
+  {
+    "minigameId": "minigame002",
+    "rewardId": 2,
+    "rewardtype": 3,
+    "rewardlevel": 1,
+    "rewardValue": 1,
+    "rewardRate": 0.5
+  },
+  {
+    "minigameId": "minigame003",
+    "rewardId": 3,
+    "rewardtype": 1,
+    "rewardlevel": 1,
+    "rewardValue": 2,
+    "rewardRate": 0.05
+  },
+  {
+    "minigameId": "minigame003",
+    "rewardId": 3,
+    "rewardtype": 1,
+    "rewardlevel": 1,
+    "rewardValue": 1,
+    "rewardRate": 0.25
+  },
+  {
+    "minigameId": "minigame003",
+    "rewardId": 3,
+    "rewardtype": 3,
+    "rewardlevel": 1,
+    "rewardValue": 2,
+    "rewardRate": 0.2
+  },
+  {
+    "minigameId": "minigame003",
+    "rewardId": 3,
+    "rewardtype": 3,
+    "rewardlevel": 1,
+    "rewardValue": 1,
+    "rewardRate": 0.5
+  },
+  {
+    "minigameId": "minigame004",
+    "rewardId": 4,
+    "rewardtype": 1,
+    "rewardlevel": 1,
+    "rewardValue": 2,
+    "rewardRate": 0.05
+  },
+  {
+    "minigameId": "minigame004",
+    "rewardId": 4,
+    "rewardtype": 1,
+    "rewardlevel": 1,
+    "rewardValue": 1,
+    "rewardRate": 0.25
+  },
+  {
+    "minigameId": "minigame004",
+    "rewardId": 4,
+    "rewardtype": 3,
+    "rewardlevel": 1,
+    "rewardValue": 2,
+    "rewardRate": 0.2
+  },
+  {
+    "minigameId": "minigame004",
+    "rewardId": 4,
+    "rewardtype": 3,
+    "rewardlevel": 1,
+    "rewardValue": 1,
+    "rewardRate": 0.5
+  }
+]

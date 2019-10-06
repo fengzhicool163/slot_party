@@ -1,0 +1,74 @@
+{
+  "version": "0.0.8",
+  "allow_origin": "*",
+  "db_util": false,
+  "enable_session": false,
+  "send_mail_on_error": true,
+  "send_mail_on_start": true,
+  "hostUrl":"https://open.upliveapps.com/",
+  "potHostUrl":"http://upslot-tyo-server08:3001/",
+  "lobbyHostUrl":"http://upgame.upliveapps.com/up_casino_lobby_asia_api/",
+  "mongo": {
+    "server_url": "mongodb://upgame-tyo-mongo01:12502,upgame-tyo-mongo02:12502/up_casino_slot_party_asia",
+    "server_opts": {"user": "up_casino_slot_party_asia", "pass": "enHero#@w3e4r", "config": { "autoIndex": false }}
+  },
+  "redis": {
+    "prefix": "up_casino_slot_party_asia_",
+    "lobbyPrefix": "up_casino_lobby_asia_",
+    "single": {
+      "port": 6379,
+      "host": "hero-redis01.zm3nil.ng.0001.apne1.cache.amazonaws.com"
+    },
+    "cluster": [],
+    "cluster_mode": false
+  },
+  "apps": [
+    {
+      "name": "server-up-casino-slot-party-asia-prod",
+      "script": "Server/bin/www",
+      "instances": 1,
+      "exec_mode": "fork",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "/data/logs/upgame/server-up-casino-slot-party-asia-prod-error.log",
+      "out_file": "/data/logs/upgame/server-up-casino-slot-party-asia-prod-out.log",
+      "log_file": "/data/logs/upgame/server-up-casino-slot-party-asia-prod-all.log",
+      "combine_logs": true,
+      "env": {
+        "PORT": 3000,
+        "GAME_CONFIG_SUFFIX": "prod_asia",
+        "GAME_ENV": "prod",
+        "GAME_JOB": false,
+        "TZ": "Asia/Shanghai"
+      }
+    },
+    {
+      "name": "server-up-casino-slot-party-asia-jackpot-prod",
+      "script": "Server/bin/www",
+      "instances": 1,
+      "exec_mode": "fork",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "/data/logs/upgame/server-up-casino-slot-party-asia-jackpot-prod-error.log",
+      "out_file": "/data/logs/upgame/server-up-casino-slot-party-asia-jackpot-prod-out.log",
+      "log_file": "/data/logs/upgame/server-up-casino-slot-party-asia-jackpot-prod-all.log",
+      "combine_logs": true,
+      "env": {
+        "PORT": 3001,
+        "GAME_CONFIG_SUFFIX": "prod_asia",
+        "GAME_ENV": "prod",
+        "GAME_JOB": false,
+        "TZ": "Asia/Shanghai"
+      }
+    }
+  ],
+  "hosts": {
+    "upslot-tyo-server08":[
+      "server-up-casino-slot-party-asia-prod",
+      "server-up-casino-slot-party-asia-jackpot-prod"
+    ]
+  },
+  "alarmMail":[
+    "shuai.hou@asiainnovations.com",
+    "yiying.wang@asiainnovations.com",
+    "ppcdev@asiainnovations.com"
+  ]
+}

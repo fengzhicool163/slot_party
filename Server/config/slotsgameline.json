@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "place1": 2,
+    "place2": 2,
+    "place3": 2,
+    "place4": 2,
+    "place5": 2
+  },
+  {
+    "line": 2,
+    "place1": 1,
+    "place2": 1,
+    "place3": 1,
+    "place4": 1,
+    "place5": 1
+  },
+  {
+    "line": 3,
+    "place1": 3,
+    "place2": 3,
+    "place3": 3,
+    "place4": 3,
+    "place5": 3
+  },
+  {
+    "line": 4,
+    "place1": 1,
+    "place2": 2,
+    "place3": 3,
+    "place4": 2,
+    "place5": 1
+  },
+  {
+    "line": 5,
+    "place1": 3,
+    "place2": 2,
+    "place3": 1,
+    "place4": 2,
+    "place5": 3
+  },
+  {
+    "line": 6,
+    "place1": 1,
+    "place2": 3,
+    "place3": 1,
+    "place4": 3,
+    "place5": 1
+  },
+  {
+    "line": 7,
+    "place1": 3,
+    "place2": 1,
+    "place3": 3,
+    "place4": 1,
+    "place5": 3
+  },
+  {
+    "line": 8,
+    "place1": 2,
+    "place2": 3,
+    "place3": 2,
+    "place4": 1,
+    "place5": 2
+  },
+  {
+    "line": 9,
+    "place1": 2,
+    "place2": 1,
+    "place3": 2,
+    "place4": 3,
+    "place5": 2
+  }
+]

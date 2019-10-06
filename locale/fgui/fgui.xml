@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- slots - popup_rank -->
+  <string name="3ly9g3laha1y1f-n58">累計賺取超過2000U鑽就可以參與角逐累計鴻運榜的排名</string>
+  <string name="3ly9g3laha1y1f-n70">狂歡派對</string>
+  <string name="3ly9g3laha1y1f-n73">開啟至少一次派對就可以參與角逐狂歡派對榜</string>
+  <!-- slots - Component12 -->
+  <string name="3ly9g3laha1y1t-n19">虛位以待</string>
+  <string name="3ly9g3laha1y1t-n24">已開啟派對 X次</string>
+  <!-- slots - popup_mini -->
+  <string name="3ly9g3laha1y1u-n3">恭喜你獲得           99999</string>
+  <!-- slots - Component13 -->
+  <string name="3ly9g3laha1y1x-n6">確定</string>
+  <!-- slots - popup_tongyong -->
+  <string name="3ly9g3laq6lnk2m-n7">取消</string>
+  <string name="3ly9g3laq6lnk2m-n11">數量不足</string>
+  <string name="3ly9g3laq6lnk2m-n13">可通過中指定獎項後獲得</string>
+  <string name="3ly9g3laq6lnk2m-n14">詳細細節可查詢玩法介紹中的獎勵資訊</string>
+  <!-- slots - Component26 -->
+  <string name="3ly9g3laq6lnk32-n54">已開啟999次</string>
+  <string name="3ly9g3laq6lnk32-n54-texts">已開啟999次</string>
+  <!-- slots - slots -->
+  <string name="3ly9g3lanix7k3r-n135">每次消耗 199 U鑽</string>
+  <!-- slots - Component32 -->
+  <string name="3ly9g3lanix7k4a-n42">鴻運榜</string>
+  <!-- slots - Component15 -->
+  <string name="3ly9g3lawmnuk5k-n104">玩法介紹</string>
+  <!-- slots - popup_rule -->
+  <string name="3ly9g3laohmyk66-n3">玩法介紹</string>
+  <string name="3ly9g3laohmyk66-n30-texts">1/5|2/5|3/5|4/5|5/5</string>
+  <!-- slots - Component43 -->
+  <string name="3ly9g3laohmyk68-n17">玩法規則：
+    每一局可以自由選擇線束和下注額，待機器停止時，按照線束方向自左到右如果出現符合獎勵表中的連續相同的元素，則發放單一線束下注額相應倍率的獎勵。
+    每一期會有一個通用圖案可以代替線束上任何一個其他圖案生效。</string>
+  <!-- slots - Component44 -->
+  <string name="3ly9g3laohmyk69-n32">2000X</string>
+  <string name="3ly9g3laohmyk69-n33">500X</string>
+  <string name="3ly9g3laohmyk69-n34">30X</string>
+  <string name="3ly9g3laohmyk69-n38">僅派對中出現</string>
+  <!-- slots - Component50 -->
+  <string name="3ly9g3lapd9ik6h-n64">累計鴻運</string>
+  <!-- slots - Component51 -->
+  <string name="3ly9g3lapd9ik6k-n8">No.2</string>
+  <string name="3ly9g3lapd9ik6k-n9">No.3</string>
+  <string name="3ly9g3lapd9ik6k-n26">No.1</string>
+  <!-- slots - Component45 -->
+  <string name="3ly9g3laazd7k6v-n32">1000X</string>
+  <string name="3ly9g3laazd7k6v-n33">100X</string>
+  <string name="3ly9g3laazd7k6v-n34">20X</string>
+  <!-- slots - Component46 -->
+  <string name="3ly9g3laazd7k6w-n32">200X</string>
+  <string name="3ly9g3laazd7k6w-n33">30X</string>
+  <string name="3ly9g3laazd7k6w-n34">10X</string>
+  <!-- slots - Component47 -->
+  <string name="3ly9g3laazd7k6x-n32">100X</string>
+  <string name="3ly9g3laazd7k6x-n33">25X</string>
+  <string name="3ly9g3laazd7k6x-n34">8X</string>
+  <string name="3ly9g3laazd7k6x-n38">2X</string>
+  <string name="3ly9g3laazd7k6x-n40">僅派對</string>
+  <!-- slots - Component48 -->
+  <string name="3ly9g3laazd7k6y-n32">25X</string>
+  <string name="3ly9g3laazd7k6y-n33">15X</string>
+  <string name="3ly9g3laazd7k6y-n34">6X</string>
+  <string name="3ly9g3laazd7k6y-n38">2X</string>
+  <string name="3ly9g3laazd7k6y-n40">僅派對</string>
+  <!-- slots - Component49 -->
+  <string name="3ly9g3laazd7k6z-n32">15X</string>
+  <string name="3ly9g3laazd7k6z-n33">8X</string>
+  <string name="3ly9g3laazd7k6z-n34">4X</string>
+  <string name="3ly9g3laazd7k6z-n38">2X</string>
+  <string name="3ly9g3laazd7k6z-n40">僅派對</string>
+  <!-- slots - Component53 -->
+  <string name="3ly9g3lagmvxk71-n34">累計鴻運和單次鴻運榜各自結算發獎</string>
+  <string name="3ly9g3lagmvxk71-n36">第1名：  10888U鑽</string>
+  <string name="3ly9g3lagmvxk71-n37">第2名：     6666U鑽</string>
+  <string name="3ly9g3lagmvxk71-n38">第3名：     2888U鑽</string>
+  <string name="3ly9g3lagmvxk71-n39">第4-5名： 1888U鑽</string>
+  <string name="3ly9g3lagmvxk71-n40">第6-10名： 888U鑽</string>
+  <string name="3ly9g3lagmvxk71-n42">鴻運大禮會在活動結束后3個工作日內發放</string>
+  <string name="3ly9g3lagmvxk71-n43">排行榜資訊刷新可能存在少許延遲</string>
+  <string name="3ly9g3lagmvxk71-n44">根據網路狀況，U鑽發放可能存在短暫的延遲</string>
+  <!-- slots - Component56 -->
+  <string name="3ly9g3laf0uhk77-n42">消費返利</string>
+  <!-- slots - popup_fanli -->
+  <string name="3ly9g3laf0uhk79-n42">消費返利</string>
+  <string name="3ly9g3laf0uhk79-n43">在直播間每消耗1000U鑽可獲得1次免費遊戲次數。
+未領取的免費遊戲次數只有在活動結束時才清零。</string>
+  <string name="3ly9g3laf0uhk79-n49">領取</string>
+  <string name="3ly9g3laf0uhk79-n50">直播間累計消費U鑽數</string>
+  <string name="3ly9g3laf0uhk79-n51">累計返還免費次數</string>
+  <string name="3ly9g3laf0uhk79-n52">距下次次數所需鑽數</string>
+  <string name="3ly9g3laf0uhk79-n54">尚未領取的免費次數</string>
+  <!-- slots - Component60 -->
+  <string name="3ly9g3lahicck7w-n6">確定</string>
+  <!-- slots - popup_jiangdan -->
+  <string name="3ly9g3lapnntk7y-n67">排名</string>
+  <string name="3ly9g3lapnntk7y-n68">玩家</string>
+  <string name="3ly9g3lapnntk7y-n69">賺取U鑚</string>
+  <string name="3ly9g3lapnntk7y-n69-texts">賺取U鑚|開啟次數</string>
+  <string name="3ly9g3lapnntk7y-n69-texts_def">獲得獎勵</string>
+  <string name="3ly9g3lapnntk7y-n83">鴻運大禮會在活動結束后3個工作日內發放</string>
+  <string name="3ly9g3lapnntk7y-n90">狂歡派對</string>
+  <!-- slots - Component57 -->
+  <string name="3ly9g3lapnntk7z-n75">我的名字有十二个字那么长</string>
+  <string name="3ly9g3lapnntk7z-n76">UID</string>
+  <string name="3ly9g3lapnntk7z-n77">99999999 U鑚</string>
+  <!-- slots - Component58 -->
+  <string name="3ly9g3lah2z5k86-n20">任務完成！</string>
+  <!-- slots - Component7 -->
+  <string name="3ly9g3lahcxck96-n174">x99</string>
+  <string name="3ly9g3lahcxck96-n175">剩餘回合：99</string>
+  <!-- slots - Component78 -->
+  <string name="3ly9g3las8lpkcb-n32">10X</string>
+  <string name="3ly9g3las8lpkcb-n33">5X</string>
+  <string name="3ly9g3las8lpkcb-n34">3X</string>
+  <string name="3ly9g3las8lpkcb-n38">2X</string>
+  <!-- slots - Component65 -->
+  <string name="3ly9g3latm0akcg-n17">1、玩家在遊戲過程中可以通過線束經過來收集4位美女的頭像
+2、頭像被玩家選擇的多個線束經過的話會被收集多次
+3、玩家在進行20和50下注額的時候，收集的進度還會變快</string>
+  <string name="3ly9g3latm0akcg-n23">1、當任一美女收集進度達到100%的時候可以點擊頭像獲得一些隨機獎勵
+2、同時該美女狀態會變為READY狀態
+3、獎勵包括免費次數以及未來若干回合獎金2倍的獎勵
+4、同時獲得多個相同獎勵的話，回合數會疊加</string>
+  <!-- slots - Component66 -->
+  <string name="3ly9g3latm0akch-n17">1、當所有美女都進入READY狀態時會進入15回合的派對模式
+2、遊戲主題面板中會出現全新的最大2000倍獎勵的新圖案
+3、據說攢著4份獎勵一起領取能更好的體驗派對模式哦</string>
+  <string name="3ly9g3latm0akch-n23">1、派對模式下，部分圖案會新增2個就可以中獎的獎勵規則
+2、詳細資訊可以在中獎面板中查詢到</string>
+  <!-- slots - Component67 -->
+  <string name="3ly9g3latm0akci-n30">收集個數</string>
+  <string name="3ly9g3latm0akci-n32">30個</string>
+  <string name="3ly9g3latm0akci-n33">30個</string>
+  <string name="3ly9g3latm0akci-n34">30個</string>
+  <string name="3ly9g3latm0akci-n35">30個</string>
+</resources>

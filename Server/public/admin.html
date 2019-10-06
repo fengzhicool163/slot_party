@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>up-casino-slot-party-admin</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="js/bf/f5a8020c31ce21.css" />
+
+    <script src="js/e3/0037994d3ffee5.js"></script>
+    <script src="js/75/1f4fb0653862ae.js"></script>
+
+    <style type="text/css">
+        body{
+            text-align: center;
+        }
+        p{color: blue}
+    </style>
+</head>
+<body>
+<script>
+    var uid;
+    var isProdStage = (document.location.href.indexOf('52.198.135.13') != -1);
+
+    var urlParams = (function(str) {
+        var reg = /(([^?&=]+)(?:=([^?&=]*))*)/g;
+        var result = {};
+        var match;
+        var key;
+        var value;
+        while (match = reg.exec(str)) {
+            key = match[2];
+            value = match[3] || '';
+            result[key] = decodeURIComponent(value);
+        }
+        return result;
+    })(location.search);
+
+    if (location.href.indexOf('http://localhost') != -1) {
+        $.ajaxSetup({
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            }
+        });
+    }
+
+    function getBaseURL() {
+        var baseURL = isProdStage ? 'http://52.198.135.13:5332/' : 'http://tactics.xingyunzhi.cn/5332/';
+        if (!baseURL) {
+            alert('base url is empty');
+        }
+        // baseURL = 'http://10.1.10.253:5400/';
+        return baseURL;
+    }
+
+    function printResult(data) {
+        if (typeof data == 'object') data = JSON.stringify(data, null, 2);
+        $("#text_result").html(data);
+        $("#query_result").collapsible("collapse").collapsible("expand");
+    }
+
+    function initUI() {
+        var curr = new Date();
+        var year = curr.getFullYear();
+        var month = curr.getMonth() + 1;
+        month = month < 10 ? '0'+month : month;
+        var day = curr.getDate();
+        day = day < 10 ? '0'+day : day;
+        var morning = year + '-' + month + '-' + day + ' 00:00:00';
+        var night = year + '-' + month + '-' + day + ' 24:00:00';
+        $( "#statsStartDate").attr("value", morning);
+        $( "#statsEndDate").attr("value", night);
+        $( "#remainStartTime").attr("value", '2016-12-30 00:00:00');
+        $( "#remainEndTime").attr("value", night);
+    }
+
+    function queryRecordById() {
+        $("#submit_button").click();
+
+        var url = getBaseURL() + 'queryRecordById';
+        var username = $("#nick_name").attr("value") || '';
+        var uid = $("#uid").attr("value") || '';
+        var uplivecode = $("#uplivecode").attr("value") || '';
+
+        $.post(url, {username:username, id:uid, uplivecode:uplivecode}, function(data, status){
+            printResult(data);
+        }, "json");
+    }
+
+    function queryRecordByPeriods() {
+        $("#submit_button_1").click();
+
+        var count = $("#count").attr("value") || 10;
+        var startTime = new Date($('#statsStartDate').val() + ' GMT+0800 (CST)').getTime();
+        var endTime = new Date($('#statsEndDate').val() + ' GMT+0800 (CST)').getTime();
+        console.log('startTime', new Date(startTime));
+        console.log('endTime', new Date(endTime));
+
+        if (!startTime || !endTime) {
+            return alert('非法的时间');
+        }
+
+        if (startTime > endTime) {
+            return alert('开始时间不能大于结束时间');
+        }
+
+        var url = getBaseURL() + 'queryRecordByPeriods';
+        $.post(url, {
+            startTime:startTime,
+            endTime:endTime,
+            count:count
+        }, function(data) {
+            printResult(data);
+        }, "json");
+    }
+    
+    function getRemain() {
+        var count = $("#count").attr("value") || 10;
+        var startTime = new Date($('#remainStartTime').val() + ' GMT+0800 (CST)').getTime();
+        var endTime = new Date($('#remainEndTime').val() + ' GMT+0800 (CST)').getTime();
+        console.log('startTime', new Date(startTime));
+        console.log('endTime', new Date(endTime));
+
+        if (!startTime || !endTime) {
+            return alert('非法的时间');
+        }
+
+        if (startTime > endTime) {
+            return alert('开始时间不能大于结束时间');
+        }
+
+        var url = getBaseURL() + 'getRemain';
+        $.post(url, {
+            startTime:startTime,
+            endTime:endTime
+        }, function(data) {
+            printResult(data);
+        }, "json");
+    }
+    
+    function getJackPotDiamond() {
+        var url = getBaseURL() + 'getJackPotDiamond';
+
+        $.post(url, {}, function(data, status){
+            printResult(data);
+        }, "json");
+    }
+
+    function resetJackPotDiamond() {
+        var result = confirm('确定要清空奖池数据?');
+        if(!result){
+            return;
+        }
+        var url = getBaseURL() + 'resetJackPotDiamond';
+
+        $.post(url, {}, function(data, status){
+            printResult(data);
+        }, "json");
+    }
+    function resetRanking() {
+        var result = confirm('确定要清空排行榜数据?');
+        if(!result){
+            return;
+        }
+        var url = getBaseURL() + 'resetRanking';
+
+        $.post(url, {}, function(data, status){
+            printResult(data);
+        }, "json");
+    }
+
+    function addPoint() {
+        var url = getBaseURL() + 'addPoint';
+        var uid = $("#uid1").attr("value") || '';
+        var point001 = $("#point001").attr("value") || '';
+        var point002 = $("#point002").attr("value") || '';
+
+        $.post(url, {
+            id  :   uid,
+            point001    :   point001,
+            point002    :   point002
+        }, function(data, status){
+            printResult(data);
+        }, "json");
+    }
+
+    function getDataOfGod() {
+        var uid = $('#userid').val();
+        var url = getBaseURL() + 'getHandsOfGodData';
+        $.post(url, {
+            id : uid
+        }, function(data) {
+            printResult(data);
+        }, "json");
+    }
+
+    function setPlayerDataOfGod() {
+        var uid_g = $('#uid_g').val();
+        var totalCost = $('#totalCost').val();
+        var dayCost = $('#dayCost').val();
+        var totalReward = $('#totalReward').val();
+        var dayReward = $('#dayReward').val();
+        var total520 = $('#total520').val();
+        var total920 = $('#total920').val();
+        var day520 = $('#day520').val();
+        var day920 = $('#day920').val();
+        var url = getBaseURL() + 'setPlayerDataHandsOfGod';
+        $.post(url, {
+            uid_g : uid_g,
+            totalCost   :   totalCost,
+            dayCost :   dayCost,
+            totalReward :   totalReward,
+            dayReward   :   dayReward,
+            total520    :   total520,
+            total920    :   total920,
+            day520      :   day520,
+            day920      :   day920
+        }, function(data) {
+            printResult(data);
+        }, "json");
+    }
+
+    function setPlayerRedisData() {
+        var rewardLevel1 = $('#rewardLevel1').val();
+        var rewardLevel2 = $('#rewardLevel2').val();
+        var rewardLevel3 = $('#rewardLevel3').val();
+        var allTotalCost = $('#allTotalCost').val();
+        var allTotalReward = $('#allTotalReward').val();
+        var jackPot = $('#jackPot').val();
+        var autoFillDiamond = $('#autoFillDiamond').val();
+        var url = getBaseURL() + 'setRedisDataHandsOfGod';
+        $.post(url, {
+            rewardLevel1 : rewardLevel1,
+            rewardLevel2   :   rewardLevel2,
+            rewardLevel3 :   rewardLevel3,
+            allTotalCost :   allTotalCost,
+            allTotalReward   :   allTotalReward,
+            jackPot    :   jackPot,
+            autoFillDiamond :   autoFillDiamond
+        }, function(data) {
+            printResult(data);
+        }, "json");
+    }
+
+
+</script>
+<style type="text/css">
+    .scrollable {
+        overflow-y: auto;
+        max-height: 400px;
+        width: 100%;
+    }
+    .ui-collapsible-heading a { text-align: center !important;}​​​
+</style>
+<div data-role="page">
+    <div role="main" class="ui-content">
+        <div id="query_result" data-role="collapsible" data-collapsed="false">
+            <h1>查询结果</h1>
+            <div class="scrollable">
+                <textarea id="text_result" class="ui-body ui-body-a" readonly="true" style="background-color: yellow;">
+                </textarea>
+            </div>
+        </div>
+        <iframe id="remember" name="remember" style="display: none;" src="about:blank"></iframe>
+        <div data-role="collapsible" data-collapsed="true">
+            <h4>查询单用户的摇奖记录</h4>
+            <form target="remember" method="post" action="about:blank">
+                <fieldset>
+                    <div class="ui-field-contain">
+                        <label for="uid">uid</label>
+                        <input type="text" id="uid" name="uid" value="">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="nick_name">username</label>
+                        <input type="text" id="nick_name" name="nick_name" value="">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="uplivecode">uplivecode</label>
+                        <input type="text" id="uplivecode" name="uplivecode" value="">
+                    </div>
+                </fieldset>
+                <button id="submit_button" type="submit" style="display: none;"></button>
+            </form>
+            <input type="button" value="执行" onclick="queryRecordById();">
+        </div>
+        <div data-role="collapsible" data-collapsed="true">
+            <h4>按照时间段统计摇奖数据</h4>
+            <form target="remember" method="post" action="about:blank">
+                <fieldset>
+                    <div class="ui-field-contain">
+                        <label for="statsStartDate">开始时间</label>
+                        <input type="datetime" data-clear-btn="false" name="statsStartDate" id="statsStartDate" value="">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="statsStartDate">结束时间</label>
+                        <input type="datetime" data-clear-btn="false" name="statsEndDate" id="statsEndDate" value="">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="count">count</label>
+                        <input type="text" id="count" name="count" value="100">
+                    </div>
+                </fieldset>
+                <button id="submit_button_1" type="submit" style="display: none;"></button>
+            </form>
+            <input type="button" value="执行" onclick="queryRecordByPeriods();">
+        </div>
+        <div data-role="collapsible" data-collapsed="true">
+            <h4>按照时间段统计留存数据</h4>
+            <form target="remember" method="post" action="about:blank">
+                <fieldset>
+                    <div class="ui-field-contain">
+                        <label for="remainStartTime">开始时间</label>
+                        <input type="datetime" data-clear-btn="false" name="remainStartTime" id="remainStartTime" value="">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="remainEndTime">结束时间</label>
+                        <input type="datetime" data-clear-btn="false" name="remainEndTime" id="remainEndTime" value="">
+                    </div>
+                </fieldset>
+            </form>
+            <input type="button" value="执行" onclick="getRemain();">
+        </div>
+        <div data-role="collapsible" data-collapsed="true">
+            <h4>获取现在奖池中的总U钻值</h4>
+            <form target="remember" method="post" action="about:blank">
+            </form>
+            <input type="button" value="执行" onclick="getJackPotDiamond();">
+        </div>
+        <div data-role="collapsible" data-collapsed="true" style="display: none;">
+            <h4>清空现在奖池中的总U钻值</h4>
+            <form target="remember" method="post" action="about:blank">
+            </form>
+            <input type="button" value="执行" onclick="resetJackPotDiamond();">
+        </div>
+        <div data-role="collapsible" data-collapsed="true" style="display: none;">
+            <h4>清空排行榜数据以及用户收益数据</h4>
+            <form target="remember" method="post" action="about:blank">
+            </form>
+            <input type="button" value="执行" onclick="resetRanking();">
+        </div>
+        <div data-role="collapsible" data-collapsed="true" style="display: none;">
+            <h4>加烟花和钥匙道具</h4>
+            <form target="remember" method="post" action="about:blank">
+                <fieldset>
+                    <div class="ui-field-contain">
+                        <label for="uid1">uid</label>
+                        <input type="text" id="uid1" name="uid1" value="5010499">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="remainStartTime">钥匙</label>
+                        <input type="text" name="point001" id="point001" value="10">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="point002">烟花</label>
+                        <input type="text" name="point002" id="point002" value="10">
+                    </div>
+                </fieldset>
+            </form>
+            <input type="button" value="执行" onclick="addPoint();">
+        </div>
+        <div id="stats_unit_level_div" style="display: none;">
+            <table data-role="table" id="stats_unit_level_table" data-mode="reflow" class="ui-responsive table-stroke">
+                <thead>
+                <tr>
+                    <th>卡牌名称</th>
+                    <th>平均等级</th>
+                    <th>最高等级</th>
+                    <th>卡牌数量</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div data-role="collapsible" data-collapsed="true">
+            <h4>查询用户的上帝之手信息</h4>
+            <form target="remember" method="post" action="about:blank">
+                <fieldset>
+                    <div class="ui-field-contain">
+                        <label for="userid">uid</label>
+                        <input type="text" id="userid" name="userid" value="5010499">
+                    </div>
+
+                </fieldset>
+            </form>
+            <input type="button" value="执行" onclick="getDataOfGod();">
+        </div>
+
+        <div data-role="collapsible" data-collapsed="true">
+            <h4>更改上帝之手单个用户统计信息 </h4>
+            <form target="remember" method="post" action="about:blank">
+                <fieldset>
+                    <div class="ui-field-contain">
+                        <label for="uid_g">uid</label>
+                        <input type="text" data-clear-btn="false" name="uid_g" id="uid_g" value="5010499">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="totalCost">累计消耗U钻</label>
+                        <input type="text" data-clear-btn="false" name="totalCost" id="totalCost" value="50000">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="dayCost">当日消耗U钻</label>
+                        <input type="text" id="dayCost" name="dayCost" value="9000">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="totalReward">累计获取U钻</label>
+                        <input type="text" data-clear-btn="false" name="totalReward" id="totalReward" value="15000">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="dayReward">当日获取U钻</label>
+                        <input type="text" id="dayReward" name="dayReward" value="4000">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="total520">累计进行5*20的次数</label>
+                        <input type="text" data-clear-btn="false" name="total520" id="total520" value="300">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="total920">累计进行9*20的次数</label>
+                        <input type="text" id="total920" name="total920" value="200">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="day520">当日进行5*20的次数</label>
+                        <input type="text" data-clear-btn="false" name="day520" id="day520" value="150">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="day920">当日进行9*20的次数</label>
+                        <input type="text" id="day920" name="day920" value="100">
+                    </div>
+                </fieldset>
+            </form>
+            <input type="button" value="执行" onclick="setPlayerDataOfGod();">
+        </div>
+
+        <div data-role="collapsible" data-collapsed="true">
+            <h4>更改上帝之手全局统计信息</h4>
+            <form target="remember" method="post" action="about:blank">
+                <fieldset>
+                    <div class="ui-field-contain">
+                        <label for="rewardLevel1">中rewardlevel1的次数</label>
+                        <input type="text" data-clear-btn="false" name="rewardLevel1" id="rewardLevel1" value="1">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="rewardLevel2">中rewardlevel2的次数</label>
+                        <input type="text" data-clear-btn="false" name="rewardLevel2" id="rewardLevel2" value="1">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="dayCost">中rewardlevel3的次数</label>
+                        <input type="text" id="rewardLevel3" name="rewardLevel3" value="1">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="allTotalCost">总花费（总吞）</label>
+                        <input type="text" data-clear-btn="false" name="allTotalCost" id="allTotalCost" value="1600001">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="allTotalReward">总奖励（总吐）</label>
+                        <input type="text" id="allTotalReward" name="allTotalReward" value="1000000">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="allTotalReward">自动补充</label>
+                        <input type="text" id="autoFillDiamond" name="autoFillDiamond" value="1000000">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="jackPot">奖池余额</label>
+                        <input type="text" data-clear-btn="false" name="jackPot" id="jackPot" value="150000">
+                    </div>
+                </fieldset>
+            </form>
+            <input type="button" value="执行" onclick="setPlayerRedisData();">
+        </div>
+
+
+    </div>
+</div>
+<script>
+    initUI();
+</script>
+</body>
+</html>

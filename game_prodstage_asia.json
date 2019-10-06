@@ -1,0 +1,57 @@
+{
+  "version": "0.0.0",
+  "allow_origin": "*",
+  "db_util": true,
+  "enable_session": false,
+  "send_mail_on_error": true,
+  "send_mail_on_start": true,
+  "hostUrl":"https://open.upliveapps.com/",
+  "potHostUrl":"",
+  "lobbyHostUrl":"",
+  "mongo": {
+    "server_url": "mongodb://upgame-tyo-mongo01:12502,upgame-tyo-mongo02:12502/up_casino_slot_party_asia",
+    "server_opts": {"user": "up_casino_slot_party_asia", "pass": "enHero#@w3e4r", "config": { "autoIndex": false }}
+  },
+  "redis": {
+    "prefix": "up_casino_slot_party_asia_",
+    "lobbyPrefix": "up_casino_lobby_asia_",
+    "single": {
+      "port": 6379,
+      "host": "hero-redis01.zm3nil.ng.0001.apne1.cache.amazonaws.com"
+    },
+    "cluster": [],
+    "cluster_mode": false
+  },
+  "apps": [
+    {
+      "name": "server-up-casino-slot-party-asia-prodstage",
+      "script": "Server/bin/www",
+      "instances": 1,
+      "exec_mode": "fork",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "/data/logs/upgame/server-up-casino-slot-party-asia-prodstage-error.log",
+      "out_file": "/data/logs/upgame/server-up-casino-slot-party-asia-prodstage-out.log",
+      "log_file": "/data/logs/upgame/server-up-casino-slot-party-asia-prodstage-all.log",
+      "combine_logs": true,
+      "env": {
+        "PORT": 5332,
+        "GAME_CONFIG_SUFFIX": "prodstage_asia",
+        "GAME_ENV": "prodstage",
+        "GAME_JOB": true,
+        "TZ": "Asia/Shanghai"
+      }
+    }
+  ],
+  "hosts": {
+    "hero-tyo-stage01":[
+      "server-up-casino-slot-party-asia-prodstage"
+    ]
+  },
+  "alarmMail":[
+    "dichen.liu@asiainnovations.com",
+    "shuai.hou@asiainnovations.com",
+    "yiying.wang@asiainnovations.com",
+    "lin.hou@asiainnovations.com",
+    "ppcdev@asiainnovations.com"
+  ]
+}

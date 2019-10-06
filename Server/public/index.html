@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>UP拉霸</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #FFFFFF;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+	<link rel="stylesheet" href="js/82/aed026702c1e7a.css" />
+	<script>
+		PageLoadTracker = (function() {
+			function PageLoadTracker() {
+				console.log('new PageLoadTracker');
+				this.progress = 0;
+				this.check();
+			}
+
+			PageLoadTracker.prototype.check = function() {
+				var self = this;
+				console.log("check")
+				if (PageLoadTracker.loadingViewLoaded) {
+					console.log('loadingViewLoaded done');
+					this.progress = 100;
+					this.done();
+				} else {
+					if (PageLoadTracker.resConfigLoaded) {
+						console.log('resConfigLoaded done');
+						this.progress = 60;
+					} else if (PageLoadTracker.manifestLoaded) {
+						console.log('manifestLoaded done');
+						this.progress = 30;
+
+					}
+
+					setTimeout((function() {
+						self.check();
+					}), 100);
+				}
+			};
+
+			PageLoadTracker.prototype.done = function() {
+				console.log('PageLoadTracker done');
+				Pace.options.extraSources = [];
+//				Pace.stop()
+				Pace.bar.finish();
+			};
+
+			PageLoadTracker.manifestLoaded = false;
+			PageLoadTracker.resConfigLoaded = false;
+			PageLoadTracker.loadingViewLoaded = false;
+
+			return PageLoadTracker;
+		})();
+
+		paceOptions = {
+			ajax: false,
+			restartOnPushState: false,
+			restartOnRequestAfter: false,
+			minTime: 0,
+			ghostTime: 0,
+			extraSources: [
+				PageLoadTracker
+			]
+		};
+	</script>
+	<script src="js/e3/31c4efa3cda1e1.js"></script>
+</head>
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+		 data-entry-class="Main"
+		 data-orientation="auto"
+		 data-scale-mode="fixedNarrow"
+		 data-frame-rate="60"
+		 data-content-width="640"
+		 data-content-height="960"
+		 data-show-paint-rect="false"
+		 data-multi-fingered="1"
+		 data-show-fps="false" data-show-log="false"
+		 data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+
+	<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+	<!--modules_files_start-->
+	<script egret="lib" src="js/35/89ea18d987010f.js"></script>
+	<script egret="lib" src="js/82/531f3537cce521.js"></script>
+	<script egret="lib" src="js/3b/2225bc0e37a2b9.js"></script>
+	<script egret="lib" src="js/ec/005a5d805ef40d.js"></script>
+	<script egret="lib" src="js/5a/5cf9def89e0fc6.js"></script>
+	<!--modules_files_end-->
+
+	<!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+	<!--other_libs_files_start-->
+	<script egret="lib" src="js/0c/5afd1597ed8fd6.js"></script>
+	<script egret="lib" src="js/1a/2503fa7fceb3e0.js"></script>
+	<script egret="lib" src="js/66/b1c59efe727ff5.js"></script>
+	<!--other_libs_files_end-->
+
+	<!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+	<!--game_files_start-->
+	<script src="js/3e/4b4884abf8ff3b.js"></script>
+	<!--game_files_end-->
+
+    <script>
+		PPGame.VERSION = '0.0.49';
+		PPGame.MANIFEST_URL = 'js/3e/761a6982fae979.json';
+		PPGame.Ins.run();
+    </script>
+</body>
+</html>

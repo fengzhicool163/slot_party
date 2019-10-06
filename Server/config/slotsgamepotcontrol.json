@@ -1,0 +1,17 @@
+[
+  {
+    "potMin": 0,
+    "potMax": 25000,
+    "ratePoint": 0.85
+  },
+  {
+    "potMin": 25001,
+    "potMax": 50000,
+    "ratePoint": 0.8
+  },
+  {
+    "potMin": 50001,
+    "potMax": 1000000000,
+    "ratePoint": 0.75
+  }
+]

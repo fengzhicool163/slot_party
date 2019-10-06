@@ -1,0 +1,8 @@
+{
+  "name": "locale",
+  "version": "0.0.1",
+  "dependencies": {
+    "xlsx": "*",
+    "xml2json": "*"
+  }
+}

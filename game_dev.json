@@ -1,0 +1,73 @@
+{
+  "version": "0.0.49",
+  "allow_origin": "*",
+  "db_util": true,
+  "enable_session": false,
+  "send_mail_on_error": false,
+  "send_mail_on_start": false,
+  "hostUrl":"https://up-b.pengpengla.com/open/",
+  "potHostUrl":"http://localhost:%PORT/",
+  "lobbyHostUrl":"http://localhost:%PORT/",
+  "mongo": {
+    "server_url": "mongodb://localhost/up_casino_slot_party_%GAME_ENV",
+    "server_opts": {"config": { "autoIndex": false }}
+  },
+  "redis": {
+    "prefix": "up_casino_slot_party_%GAME_ENV_",
+    "lobbyPrefix": "up_casino_lobby",
+    "single": {
+      "port": 6379,
+      "host": "127.0.0.1"
+    },
+    "cluster": [],
+    "cluster_mode": false
+  },
+  "apps": [
+    {
+      "name": "server-up-casino-slot-party-%GAME_ENV",
+      "script": "Server/bin/www",
+      "instances": 1,
+      "exec_mode": "fork",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "combine_logs": true,
+      "env": {
+        "PORT": "%PORT",
+        "LOBBYPORT": "%LOBBYPORT",
+        "GAME_CONFIG_SUFFIX": "dev",
+        "GAME_ENV": "%GAME_ENV",
+        "GAME_JOB": true,
+        "TZ": "Asia/Shanghai"
+      }
+    },
+    {
+      "name": "server-up-casino-slot-party-jack-%GAME_ENV",
+      "script": "Server/bin/www",
+      "instances": 1,
+      "exec_mode": "fork",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "combine_logs": true,
+      "env": {
+        "PORT": "%PORT",
+        "GAME_CONFIG_SUFFIX": "dev",
+        "GAME_ENV": "%GAME_ENV",
+        "GAME_JOB": false,
+        "TZ": "Asia/Shanghai"
+      }
+    }
+  ],
+  "targets": {
+    "asia": {
+      "server": 5332,
+      "potServer":  5333,
+      "lobbyServer": 5400
+    },
+    "me": {
+      "server": 5334,
+      "potServer":  5335,
+      "lobbyServer": 5401
+    }
+  },
+  "alarmMail":[
+    "ppcdev@asiainnovations.com"
+  ]
+}

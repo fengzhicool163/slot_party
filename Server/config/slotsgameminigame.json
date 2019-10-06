@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "minigameId": "minigame001",
+    "unit": "unit009",
+    "unitPoint": 30,
+    "rewardId": 1
+  },
+  {
+    "id": 2,
+    "minigameId": "minigame002",
+    "unit": "unit010",
+    "unitPoint": 30,
+    "rewardId": 2
+  },
+  {
+    "id": 3,
+    "minigameId": "minigame003",
+    "unit": "unit011",
+    "unitPoint": 30,
+    "rewardId": 3
+  },
+  {
+    "id": 4,
+    "minigameId": "minigame004",
+    "unit": "unit012",
+    "unitPoint": 30,
+    "rewardId": 4
+  }
+]

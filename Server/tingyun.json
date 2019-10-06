@@ -1,0 +1,16 @@
+{
+  "agent_log_level": "info",
+  "app_name": [
+    "up-slot-machine"
+  ],
+  "licenseKey": "665011217ea0241f829633ec64ce6ec7",
+  "host": "redirect.networkbench.com",
+  "port": 443,
+  "ssl": true,
+  "proxy": "",
+  "proxy_host": "",
+  "proxy_port": "",
+  "proxy_user": "",
+  "proxy_pass": "",
+  "audit_mode": false
+}
