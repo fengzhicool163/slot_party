@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>UP拉霸</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #FFFFFF;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+	<link rel="stylesheet" href="libs/pace/pace-theme-center-simple.css" />
+	<script>
+		PageLoadTracker = (function() {
+			function PageLoadTracker() {
+				console.log('new PageLoadTracker');
+				this.progress = 0;
+				this.check();
+			}
+
+			PageLoadTracker.prototype.check = function() {
+				var self = this;
+				console.log("check")
+				if (PageLoadTracker.loadingViewLoaded) {
+					console.log('loadingViewLoaded done');
+					this.progress = 100;
+					this.done();
+				} else {
+					if (PageLoadTracker.resConfigLoaded) {
+						console.log('resConfigLoaded done');
+						this.progress = 60;
+					} else if (PageLoadTracker.manifestLoaded) {
+						console.log('manifestLoaded done');
+						this.progress = 30;
+
+					}
+
+					setTimeout((function() {
+						self.check();
+					}), 100);
+				}
+			};
+
+			PageLoadTracker.prototype.done = function() {
+				console.log('PageLoadTracker done');
+				Pace.options.extraSources = [];
+//				Pace.stop()
+				Pace.bar.finish();
+			};
+
+			PageLoadTracker.manifestLoaded = false;
+			PageLoadTracker.resConfigLoaded = false;
+			PageLoadTracker.loadingViewLoaded = false;
+
+			return PageLoadTracker;
+		})();
+
+		paceOptions = {
+			ajax: false,
+			restartOnPushState: false,
+			restartOnRequestAfter: false,
+			minTime: 0,
+			ghostTime: 0,
+			extraSources: [
+				PageLoadTracker
+			]
+		};
+	</script>
+	<script src="libs/pace/pace.min.js"></script>
+</head>
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+		 data-entry-class="Main"
+		 data-orientation="auto"
+		 data-scale-mode="fixedNarrow"
+		 data-frame-rate="60"
+		 data-content-width="640"
+		 data-content-height="960"
+		 data-show-paint-rect="false"
+		 data-multi-fingered="1"
+		 data-show-fps="false" data-show-log="false"
+		 data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+
+	<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+	<!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<!--modules_files_end-->
+
+	<!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+	<!--other_libs_files_start-->
+	<script egret="lib" src="libs/underscore/underscore.js" src-release="libs/underscore/underscore.min.js"></script>
+	<script egret="lib" src="libs/fairygui/fairygui.js" src-release="libs/fairygui/fairygui.min.js"></script>
+	<script egret="lib" src="libs/rawinflate/rawinflate.min.js" src-release="libs/rawinflate/rawinflate.min.js"></script>
+	<!--other_libs_files_end-->
+
+	<!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+	<!--game_files_start-->
+	<script egret="game" src="bin-debug/game/manager/MusicManager.js"></script>
+	<script egret="game" src="bin-debug/game/ui/popup/BasePopup.js"></script>
+	<script egret="game" src="bin-debug/game/manager/AssetManager.js"></script>
+	<script egret="game" src="bin-debug/game/Utils/DateStruct.js"></script>
+	<script egret="game" src="bin-debug/init/BaseInit.js"></script>
+	<script egret="game" src="bin-debug/starlingswf/display/SwfSprite.js"></script>
+	<script egret="game" src="bin-debug/game/signal/Signal.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component64.js"></script>
+	<script egret="game" src="bin-debug/game/model/UpSDKModel.js"></script>
+	<script egret="game" src="bin-debug/game/model/UserModel.js"></script>
+	<script egret="game" src="bin-debug/game/network/Request.js"></script>
+	<script egret="game" src="bin-debug/game/signal/GameEvent.js"></script>
+	<script egret="game" src="bin-debug/game/manager/FeatureSupport.js"></script>
+	<script egret="game" src="bin-debug/game/signal/SignalBinding.js"></script>
+	<script egret="game" src="bin-debug/game/signal/UIEvent.js"></script>
+	<script egret="game" src="bin-debug/game/ui/component/LoadingView.js"></script>
+	<script egret="game" src="bin-debug/game/ui/component/MyGLoader.js"></script>
+	<script egret="game" src="bin-debug/game/ui/component/SlotLogic.js"></script>
+	<script egret="game" src="bin-debug/game/ui/FGUIExtension.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/Animation.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/HorseRaceLamp.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/LongPress.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/SlotNumberScroller.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/SlotRewardLine.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/SlotScroller.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/TimeCounter.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/Toaster.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/UIUtils.js"></script>
+	<script egret="game" src="bin-debug/game/ui/general/UnitUtils.js"></script>
+	<script egret="game" src="bin-debug/common/WindowMsg.js"></script>
+	<script egret="game" src="bin-debug/game/ui/popup/NotificationPopup.js"></script>
+	<script egret="game" src="bin-debug/game/ui/popup/PopFanli.js"></script>
+	<script egret="game" src="bin-debug/game/ui/popup/PopJackpotResult.js"></script>
+	<script egret="game" src="bin-debug/game/ui/popup/PopResult.js"></script>
+	<script egret="game" src="bin-debug/game/ui/popup/PopSuperResult.js"></script>
+	<script egret="game" src="bin-debug/game/ui/popup/Ranking.js"></script>
+	<script egret="game" src="bin-debug/game/ui/popup/RankingPop.js"></script>
+	<script egret="game" src="bin-debug/game/ui/popup/Rule.js"></script>
+	<script egret="game" src="bin-debug/game/ui/scene/UIGameMain.js"></script>
+	<script egret="game" src="bin-debug/game/ui/scene/UILoginMain.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/slotsBinder.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_100ubtn.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_10ubtn.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_500ubtn.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_btn_1.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_closeButton.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component10.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component11.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component12.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component13.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component15.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component16.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component17.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component18.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component26.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component3.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component32.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component33.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component34.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component35.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component38.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component39.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component41.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component43.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component44.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component45.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component46.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component47.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component48.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component49.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component50.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component51.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component52.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component54.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component55.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component56.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component57.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component59.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component60.js"></script>
+	<script egret="game" src="bin-debug/starlingswf/SwfUpdateManager.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component65.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component66.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component67.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component78.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component8.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_Component9.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_loading.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_popup_fanli.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_popup_jiangdan.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_popup_mini.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_popup_rank.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_popup_rule.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_popup_tongyong.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_popup.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_progress_bar.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_return2.js"></script>
+	<script egret="game" src="bin-debug/game/ui/slots/UI_slots.js"></script>
+	<script egret="game" src="bin-debug/game/ui/UIGameLayer.js"></script>
+	<script egret="game" src="bin-debug/game/ui/UIIdentities.js"></script>
+	<script egret="game" src="bin-debug/game/ui/UILayer.js"></script>
+	<script egret="game" src="bin-debug/game/ui/UIPopupLayer.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/CollectEffect.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/delegate/SlotHudDelegate.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/RateBar.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/RateScreenEffect.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotBackgroundEffect.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotBet.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotBtn.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotChest.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotCollect.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotCost.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotFanli.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotHorseRaceLamp.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotJackpot.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotJackpotList.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotJackpotNumber.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotLine.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotRankBtn.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotResult.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotRule.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotViewMain.js"></script>
+	<script egret="game" src="bin-debug/game/ui/view/SlotWheel.js"></script>
+	<script egret="game" src="bin-debug/game/model/GeneralServerRequest.js"></script>
+	<script egret="game" src="bin-debug/game/Utils/InstanceLoader.js"></script>
+	<script egret="game" src="bin-debug/game/Utils/TimeUtil.js"></script>
+	<script egret="game" src="bin-debug/game/Utils/Tools.js"></script>
+	<script egret="game" src="bin-debug/init/AddedToStage.js"></script>
+	<script egret="game" src="bin-debug/game/model/LocalConfigModel.js"></script>
+	<script egret="game" src="bin-debug/init/CatchError.js"></script>
+	<script egret="game" src="bin-debug/init/ConsoleHacker.js"></script>
+	<script egret="game" src="bin-debug/init/DetermineLocale.js"></script>
+	<script egret="game" src="bin-debug/init/LoadAndShowLogin.js"></script>
+	<script egret="game" src="bin-debug/init/LoadDynamicResource.js"></script>
+	<script egret="game" src="bin-debug/init/LoadGameResource.js"></script>
+	<script egret="game" src="bin-debug/init/LoadResConfig.js"></script>
+	<script egret="game" src="bin-debug/init/PlatformLogin.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/PPGame.js"></script>
+	<script egret="game" src="bin-debug/shared/components/core/IUIReplacement.js"></script>
+	<script egret="game" src="bin-debug/shared/components/core/UIReplacementInitializer.js"></script>
+	<script egret="game" src="bin-debug/shared/components/core/UIReplacementWrapper.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/hud/hudBinder.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/hud/UI_Component10.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/hud/UI_Component110.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/hud/UI_Component27.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/hud/UI_Component3.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/hud/UI_Component5.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/hud/UI_Component582.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/hud/UI_hud.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/hud/UI_return.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/ISlotHudUI.js"></script>
+	<script egret="game" src="bin-debug/shared/components/hud/SlotHud.js"></script>
+	<script egret="game" src="bin-debug/starlingswf/blendmode/SwfBlendMode.js"></script>
+	<script egret="game" src="bin-debug/starlingswf/display/ISwfAnimation.js"></script>
+	<script egret="game" src="bin-debug/starlingswf/display/SwfMovieClip.js"></script>
+	<script egret="game" src="bin-debug/game/model/LocaleModel.js"></script>
+	<script egret="game" src="bin-debug/starlingswf/Swf.js"></script>
+	<script egret="game" src="bin-debug/starlingswf/SwfAssetManager.js"></script>
+	<script egret="game" src="bin-debug/game/manager/WebVersionController.js"></script>
+	<!--game_files_end-->
+
+    <script>
+		PPGame.VERSION = '0.0.49';
+		PPGame.MANIFEST_URL = 'all.manifest.json';
+		PPGame.Ins.run();
+    </script>
+</body>
+</html>
