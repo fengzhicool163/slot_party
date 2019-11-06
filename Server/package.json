@@ -15,7 +15,7 @@
     "encoding": "^0.1.12",
     "express": "~4.13.1",
     "ioredis": "^2.4.3",
-    "mongoose": "^4.7.4",
+    "mongoose": "^5.7.8",
     "morgan": "~1.6.1",
     "node-uuid": "^1.4.7",
     "nodemailer": "^2.7.0",
